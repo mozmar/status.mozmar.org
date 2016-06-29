@@ -236,7 +236,7 @@ nr-13688011:
   id: nr-13688011
   link: ''
   name: snippets-admin-us-west
-  status: orange
+  status: green
   type: newrelic
 nr-13688024:
   display: true
