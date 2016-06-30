@@ -292,7 +292,7 @@ nr-13698376:
   id: nr-13698376
   link: ''
   name: basket-admin-stage-us-west
-  status: gray
+  status: green
   type: newrelic
 nr-13701297:
   display: true
