@@ -284,7 +284,7 @@ nr-13688108:
   id: nr-13688108
   link: ''
   name: basket-admin-us-west
-  status: green
+  status: gray
   type: newrelic
 nr-13698376:
   display: true
