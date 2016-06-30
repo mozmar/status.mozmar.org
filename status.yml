@@ -172,7 +172,7 @@ nr-13687704:
   id: nr-13687704
   link: ''
   name: snippets-prod-eu-west
-  status: green
+  status: orange
   type: newrelic
 nr-13687785:
   display: true
@@ -292,7 +292,7 @@ nr-13698376:
   id: nr-13698376
   link: ''
   name: basket-admin-stage-us-west
-  status: green
+  status: gray
   type: newrelic
 nr-13701297:
   display: true
