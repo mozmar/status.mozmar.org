@@ -172,7 +172,7 @@ nr-13687704:
   id: nr-13687704
   link: ''
   name: snippets-prod-eu-west
-  status: orange
+  status: green
   type: newrelic
 nr-13687785:
   display: true
