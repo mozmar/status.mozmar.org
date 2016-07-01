@@ -1,0 +1,26 @@
+body {
+    margin: 15px 0 15px 0;
+    background-color: #efefef;
+}
+
+.mybadge {
+    background-color: unset;
+    color: unset;
+    font-size: 16px;
+}
+
+.mybadge.healthy {
+    color: green;
+}
+
+.mybadge.pending {
+    color: gray;
+}
+
+.mybadge.warning {
+    color: orange;
+}
+
+.mybadge.failed {
+    color: red;
+}
