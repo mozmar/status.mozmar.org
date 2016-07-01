@@ -116,7 +116,7 @@ nr-13674646:
   id: nr-13674646
   link: ''
   name: support-dev.allizom.org
-  status: healthy
+  status: green
   type: newrelic
 nr-13687503:
   display: true
@@ -124,7 +124,7 @@ nr-13687503:
   id: nr-13687503
   link: ''
   name: bedrock-stage-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687560:
   display: true
@@ -132,7 +132,7 @@ nr-13687560:
   id: nr-13687560
   link: ''
   name: snippets-stage-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687580:
   display: true
@@ -140,7 +140,7 @@ nr-13687580:
   id: nr-13687580
   link: ''
   name: careers-prod-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687607:
   display: true
@@ -148,7 +148,7 @@ nr-13687607:
   id: nr-13687607
   link: ''
   name: basket-dev-eu-west
-  status: pending
+  status: gray
   type: newrelic
 nr-13687628:
   display: true
@@ -156,7 +156,7 @@ nr-13687628:
   id: nr-13687628
   link: ''
   name: basket-stage-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687653:
   display: true
@@ -164,7 +164,7 @@ nr-13687653:
   id: nr-13687653
   link: ''
   name: basket-prod-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687704:
   display: true
@@ -172,7 +172,7 @@ nr-13687704:
   id: nr-13687704
   link: ''
   name: snippets-prod-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687785:
   display: true
@@ -180,7 +180,7 @@ nr-13687785:
   id: nr-13687785
   link: ''
   name: bedrock-prod-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687900:
   display: true
@@ -188,7 +188,7 @@ nr-13687900:
   id: nr-13687900
   link: ''
   name: careers-prod-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687919:
   display: true
@@ -196,7 +196,7 @@ nr-13687919:
   id: nr-13687919
   link: ''
   name: masterfirefoxos_prod
-  status: healthy
+  status: green
   type: newrelic
 nr-13687960:
   display: true
@@ -204,7 +204,7 @@ nr-13687960:
   id: nr-13687960
   link: ''
   name: careers-stage-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687969:
   display: true
@@ -212,7 +212,7 @@ nr-13687969:
   id: nr-13687969
   link: ''
   name: snippets-stage-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687975:
   display: true
@@ -220,7 +220,7 @@ nr-13687975:
   id: nr-13687975
   link: ''
   name: basket-stage-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13687987:
   display: true
@@ -228,7 +228,7 @@ nr-13687987:
   id: nr-13687987
   link: ''
   name: snippets-prod-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13688011:
   display: true
@@ -236,7 +236,7 @@ nr-13688011:
   id: nr-13688011
   link: ''
   name: snippets-admin-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13688024:
   display: true
@@ -244,7 +244,7 @@ nr-13688024:
   id: nr-13688024
   link: ''
   name: basket-dev-us-west
-  status: pending
+  status: gray
   type: newrelic
 nr-13688032:
   display: true
@@ -252,7 +252,7 @@ nr-13688032:
   id: nr-13688032
   link: ''
   name: basket-prod-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13688046:
   display: true
@@ -260,7 +260,7 @@ nr-13688046:
   id: nr-13688046
   link: ''
   name: masterfirefoxos_dev
-  status: healthy
+  status: green
   type: newrelic
 nr-13688073:
   display: true
@@ -268,7 +268,7 @@ nr-13688073:
   id: nr-13688073
   link: ''
   name: bedrock-prod-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13688101:
   display: true
@@ -276,7 +276,7 @@ nr-13688101:
   id: nr-13688101
   link: ''
   name: bedrock-stage-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13688108:
   display: true
@@ -284,7 +284,7 @@ nr-13688108:
   id: nr-13688108
   link: ''
   name: basket-admin-us-west
-  status: pending
+  status: gray
   type: newrelic
 nr-13698376:
   display: true
@@ -292,7 +292,7 @@ nr-13698376:
   id: nr-13698376
   link: ''
   name: basket-admin-stage-us-west
-  status: pending
+  status: gray
   type: newrelic
 nr-13701297:
   display: true
@@ -300,7 +300,7 @@ nr-13701297:
   id: nr-13701297
   link: ''
   name: bedrock-dev-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13701320:
   display: true
@@ -308,7 +308,7 @@ nr-13701320:
   id: nr-13701320
   link: ''
   name: bedrock-dev-eu-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13708399:
   display: true
@@ -316,7 +316,7 @@ nr-13708399:
   id: nr-13708399
   link: ''
   name: developer.allizom.org-kumascript
-  status: healthy
+  status: green
   type: newrelic
 nr-13708738:
   display: true
@@ -324,7 +324,7 @@ nr-13708738:
   id: nr-13708738
   link: ''
   name: developer.allizom.org
-  status: healthy
+  status: green
   type: newrelic
 nr-13710560:
   display: true
@@ -332,7 +332,7 @@ nr-13710560:
   id: nr-13710560
   link: ''
   name: support.allizom.org
-  status: healthy
+  status: green
   type: newrelic
 nr-13778280:
   display: true
@@ -340,7 +340,7 @@ nr-13778280:
   id: nr-13778280
   link: ''
   name: browsercompat.herokuapp.com
-  status: healthy
+  status: green
   type: newrelic
 nr-13782058:
   display: true
@@ -348,7 +348,7 @@ nr-13782058:
   id: nr-13782058
   link: ''
   name: developer.mozilla.org
-  status: healthy
+  status: green
   type: newrelic
 nr-13786029:
   display: true
@@ -356,7 +356,7 @@ nr-13786029:
   id: nr-13786029
   link: ''
   name: developer.mozilla.org-kumascript
-  status: healthy
+  status: green
   type: newrelic
 nr-13792729:
   display: true
@@ -364,7 +364,7 @@ nr-13792729:
   id: nr-13792729
   link: ''
   name: nucleus-sugar-us-west
-  status: healthy
+  status: green
   type: newrelic
 nr-13801074:
   display: true
@@ -372,7 +372,7 @@ nr-13801074:
   id: nr-13801074
   link: ''
   name: support.mozilla.org
-  status: healthy
+  status: green
   type: newrelic
 nr-13851870:
   display: true
@@ -380,7 +380,7 @@ nr-13851870:
   id: nr-13851870
   link: ''
   name: developer-dev.allizom.org
-  status: healthy
+  status: green
   type: newrelic
 nr-14096517:
   display: true
@@ -388,7 +388,7 @@ nr-14096517:
   id: nr-14096517
   link: ''
   name: basket-demo-pmac-us-west
-  status: pending
+  status: gray
   type: newrelic
 nr-14185720:
   display: true
@@ -396,7 +396,7 @@ nr-14185720:
   id: nr-14185720
   link: ''
   name: Python Application
-  status: pending
+  status: gray
   type: newrelic
 nr-14643363:
   display: true
@@ -404,7 +404,7 @@ nr-14643363:
   id: nr-14643363
   link: ''
   name: Python Agent Test
-  status: pending
+  status: gray
   type: newrelic
 nr-14752155:
   display: true
@@ -412,7 +412,7 @@ nr-14752155:
   id: nr-14752155
   link: ''
   name: basket-demo-sfdc-us-west
-  status: pending
+  status: gray
   type: newrelic
 synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
   display: true
@@ -420,7 +420,7 @@ synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
   id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
   link: ''
   name: Snippets CDN
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
   display: true
@@ -428,7 +428,7 @@ synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
   id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
   link: ''
   name: support.mozilla.org
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
   display: true
@@ -436,7 +436,7 @@ synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
   id: synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54
   link: ''
   name: Test
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
   display: true
@@ -444,7 +444,7 @@ synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
   id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
   link: ''
   name: Careers EU-West
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
   display: true
@@ -452,7 +452,7 @@ synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
   id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
   link: ''
   name: Careers US-West
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
   display: true
@@ -460,7 +460,7 @@ synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
   id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
   link: ''
   name: careers.mozilla.org
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
   display: true
@@ -468,7 +468,7 @@ synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
   id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
   link: ''
   name: Snippets Prod EU-West
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
   display: true
@@ -476,7 +476,7 @@ synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
   id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
   link: ''
   name: www.mozilla.org
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
   display: true
@@ -484,7 +484,7 @@ synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
   id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
   link: ''
   name: Bedrock Prod US-west
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
   display: true
@@ -492,7 +492,7 @@ synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
   id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
   link: ''
   name: MozMar Status Board
-  status: failed
+  status: major outage
   type: synthetics
 synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
   display: true
@@ -500,7 +500,7 @@ synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
   id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
   link: ''
   name: Snippets Admin
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
   display: true
@@ -508,7 +508,7 @@ synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
   id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
   link: ''
   name: MDN
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
   display: true
@@ -516,7 +516,7 @@ synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
   id: synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3
   link: ''
   name: Snippets Prod US-West
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-c88c9131-1412-4687-bd01-05193089dfce:
   display: true
@@ -524,7 +524,7 @@ synthetics-c88c9131-1412-4687-bd01-05193089dfce:
   id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
   link: ''
   name: Basket Prod
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
   display: true
@@ -532,7 +532,7 @@ synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
   id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
   link: ''
   name: Bedrock Prod EU-west
-  status: healthy
+  status: operational
   type: synthetics
 synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
   display: true
@@ -540,5 +540,5 @@ synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
   id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
   link: ''
   name: MasterFirefoxOS
-  status: healthy
+  status: operational
   type: synthetics
