@@ -1,7 +1,16 @@
 var Component = React.createClass({
     render: function() {
+        console.log(this.props.status);
+        var color = 'green';
+        if (this.props.status == 'pending')
+            color = 'gray';
+        else if (this.props.status == 'warning')
+            color = 'orange';
+        else if (this.props.status == 'failed')
+            color = 'red';
+
         return (
-                <li style={{ color: this.props.status }}>
+                <li style={{ color: color }}>
                 {this.props.name}
                 </li>
         );
