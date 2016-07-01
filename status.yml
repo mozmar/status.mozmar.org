@@ -1,6 +1,6 @@
 components:
   dms-033e342441:
-    display: true
+    display: false
     group: null
     id: dms-033e342441
     link: ''
@@ -24,7 +24,7 @@ components:
     status: healthy
     type: deadmanssnitch
   dms-2b20aff8d3:
-    display: true
+    display: false
     group: null
     id: dms-2b20aff8d3
     link: ''
@@ -56,7 +56,7 @@ components:
     status: healthy
     type: deadmanssnitch
   dms-7311a3e4db:
-    display: true
+    display: false
     group: null
     id: dms-7311a3e4db
     link: ''
@@ -88,7 +88,7 @@ components:
     status: healthy
     type: deadmanssnitch
   dms-d46cd45930:
-    display: true
+    display: false
     group: null
     id: dms-d46cd45930
     link: ''
@@ -112,7 +112,7 @@ components:
     status: healthy
     type: deadmanssnitch
   nr-13674646:
-    display: true
+    display: false
     group: null
     id: nr-13674646
     link: ''
@@ -120,7 +120,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687503:
-    display: true
+    display: false
     group: null
     id: nr-13687503
     link: ''
@@ -128,7 +128,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687560:
-    display: true
+    display: false
     group: null
     id: nr-13687560
     link: ''
@@ -144,7 +144,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687607:
-    display: true
+    display: false
     group: null
     id: nr-13687607
     link: ''
@@ -152,7 +152,7 @@ components:
     status: pending
     type: newrelic
   nr-13687628:
-    display: true
+    display: false
     group: null
     id: nr-13687628
     link: ''
@@ -200,7 +200,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687960:
-    display: true
+    display: false
     group: null
     id: nr-13687960
     link: ''
@@ -208,7 +208,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687969:
-    display: true
+    display: false
     group: null
     id: nr-13687969
     link: ''
@@ -216,7 +216,7 @@ components:
     status: healthy
     type: newrelic
   nr-13687975:
-    display: true
+    display: false
     group: null
     id: nr-13687975
     link: ''
@@ -240,7 +240,7 @@ components:
     status: healthy
     type: newrelic
   nr-13688024:
-    display: true
+    display: false
     group: null
     id: nr-13688024
     link: ''
@@ -272,7 +272,7 @@ components:
     status: healthy
     type: newrelic
   nr-13688101:
-    display: true
+    display: false
     group: null
     id: nr-13688101
     link: ''
@@ -288,7 +288,7 @@ components:
     status: pending
     type: newrelic
   nr-13698376:
-    display: true
+    display: false
     group: null
     id: nr-13698376
     link: ''
@@ -296,7 +296,7 @@ components:
     status: pending
     type: newrelic
   nr-13701297:
-    display: true
+    display: false
     group: null
     id: nr-13701297
     link: ''
@@ -304,7 +304,7 @@ components:
     status: healthy
     type: newrelic
   nr-13701320:
-    display: true
+    display: false
     group: null
     id: nr-13701320
     link: ''
@@ -312,7 +312,7 @@ components:
     status: healthy
     type: newrelic
   nr-13708399:
-    display: true
+    display: false
     group: null
     id: nr-13708399
     link: ''
@@ -320,7 +320,7 @@ components:
     status: healthy
     type: newrelic
   nr-13708738:
-    display: true
+    display: false
     group: null
     id: nr-13708738
     link: ''
@@ -376,7 +376,7 @@ components:
     status: healthy
     type: newrelic
   nr-13851870:
-    display: true
+    display: false
     group: null
     id: nr-13851870
     link: ''
@@ -384,7 +384,7 @@ components:
     status: healthy
     type: newrelic
   nr-14096517:
-    display: true
+    display: false
     group: null
     id: nr-14096517
     link: ''
@@ -392,7 +392,7 @@ components:
     status: pending
     type: newrelic
   nr-14185720:
-    display: true
+    display: false
     group: null
     id: nr-14185720
     link: ''
@@ -400,7 +400,7 @@ components:
     status: pending
     type: newrelic
   nr-14643363:
-    display: true
+    display: false
     group: null
     id: nr-14643363
     link: ''
@@ -408,7 +408,7 @@ components:
     status: pending
     type: newrelic
   nr-14752155:
-    display: true
+    display: false
     group: null
     id: nr-14752155
     link: ''

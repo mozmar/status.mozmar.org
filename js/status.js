@@ -57,11 +57,15 @@ var GlobalStatus = React.createClass({
 
 var ComponentList = React.createClass({
     render: function() {
-        var componentNodes = this.props.components.map(function(component) {
-            return (
-                    <Component name={component.name} key={component.id} status={component.status} link={component.link}/>
-            );
-        });
+        var componentNodes = [];
+        for (var i=0; i < this.props.components.length; i++) {
+            var component = this.props.components[i];
+            if (component.display) {
+                componentNodes.push(
+                       <Component name={component.name} key={component.id} status={component.status} link={component.link}/>
+                    );
+            }
+        }
         return (
                 <ul className={"list-group"}>
                 {componentNodes}
