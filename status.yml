@@ -1,10 +1,34 @@
 components:
+  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
+    display: true
+    group: mozilla.org
+    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
+    link: https://www.mozilla.org
+    name: Website CDN
+    status: healthy
+    type: synthetics
+  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
+    display: true
+    group: mozilla.org
+    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
+    link: ''
+    name: Website US-West
+    status: healthy
+    type: synthetics
+  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
+    display: true
+    group: mozilla.org
+    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
+    link: ''
+    name: Website EU-West
+    status: healthy
+    type: synthetics
   dms-e7b32a3078:
     display: true
     group: mozilla.org
     id: dms-e7b32a3078
     link: ''
-    name: Bedrock Periodic Tasks - EU West
+    name: Periodic Tasks - EU-West
     status: healthy
     type: deadmanssnitch
   dms-ed6363a1ed:
@@ -12,7 +36,7 @@ components:
     group: mozilla.org
     id: dms-ed6363a1ed
     link: ''
-    name: Bedrock Periodic Tasks - US West
+    name: Periodic Tasks - US-West
     status: healthy
     type: deadmanssnitch
   nr-13687503:
@@ -28,7 +52,7 @@ components:
     group: mozilla.org
     id: nr-13687785
     link: ''
-    name: Application Instance - EU West
+    name: Application EU-West
     status: healthy
     type: newrelic
   nr-13688073:
@@ -36,7 +60,7 @@ components:
     group: mozilla.org
     id: nr-13688073
     link: ''
-    name: Application Instance - US West
+    name: Application US-West
     status: healthy
     type: newrelic
   nr-13688101:
@@ -44,7 +68,7 @@ components:
     group: mozilla.org
     id: nr-13688101
     link: ''
-    name: bedrock-stage-us-west
+    name: bedrock-stage-US-West
     status: healthy
     type: newrelic
   nr-13701297:
@@ -52,7 +76,7 @@ components:
     group: mozilla.org
     id: nr-13701297
     link: ''
-    name: bedrock-dev-us-west
+    name: bedrock-dev-US-West
     status: healthy
     type: newrelic
   nr-13701320:
@@ -68,33 +92,9 @@ components:
     group: mozilla.org
     id: nr-13792729
     link: ''
-    name: Nucleus US West
+    name: Nucleus US-West
     status: healthy
     type: newrelic
-  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
-    display: true
-    group: mozilla.org
-    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
-    link: ''
-    name: Website CDN
-    status: healthy
-    type: synthetics
-  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
-    display: true
-    group: mozilla.org
-    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
-    link: ''
-    name: Website US West
-    status: healthy
-    type: synthetics
-  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
-    display: true
-    group: mozilla.org
-    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
-    link: ''
-    name: Website EU West
-    status: healthy
-    type: synthetics
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: true
     group: Basket
@@ -108,7 +108,7 @@ components:
     group: Basket
     id: nr-14752155
     link: ''
-    name: basket-demo-sfdc-us-west
+    name: basket-demo-sfdc-US-West
     status: pending
     type: newrelic
   nr-14096517:
@@ -116,7 +116,7 @@ components:
     group: Basket
     id: nr-14096517
     link: ''
-    name: basket-demo-pmac-us-west
+    name: basket-demo-pmac-US-West
     status: pending
     type: newrelic
   nr-13688108:
@@ -124,7 +124,7 @@ components:
     group: Basket
     id: nr-13688108
     link: ''
-    name: Admin Application Instance US West
+    name: Admin Application US-West
     status: healthy
     type: newrelic
   nr-13698376:
@@ -132,7 +132,7 @@ components:
     group: Basket
     id: nr-13698376
     link: ''
-    name: basket-admin-stage-us-west
+    name: basket-admin-stage-US-West
     status: healthy
     type: newrelic
   nr-13687975:
@@ -140,7 +140,7 @@ components:
     group: Basket
     id: nr-13687975
     link: ''
-    name: basket-stage-us-west
+    name: basket-stage-US-West
     status: healthy
     type: newrelic
   nr-13688024:
@@ -148,7 +148,7 @@ components:
     group: Basket
     id: nr-13688024
     link: ''
-    name: basket-dev-us-west
+    name: basket-dev-US-West
     status: healthy
     type: newrelic
   nr-13688032:
@@ -156,7 +156,7 @@ components:
     group: Basket
     id: nr-13688032
     link: ''
-    name: Application Instance US West
+    name: Application US-West
     status: healthy
     type: newrelic
   nr-13687653:
@@ -164,7 +164,7 @@ components:
     group: Basket
     id: nr-13687653
     link: ''
-    name: Application Instance EU West
+    name: Application EU-West
     status: healthy
     type: newrelic
   nr-13687607:
@@ -188,7 +188,7 @@ components:
     group: Basket
     id: dms-6eb44fe994
     link: ''
-    name: Queue US West
+    name: Queue US-West
     status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
@@ -196,7 +196,7 @@ components:
     group: Basket
     id: dms-16e219cc55
     link: ''
-    name: Queue EU West
+    name: Queue EU-West
     status: healthy
     type: deadmanssnitch
   dms-7311a3e4db:
@@ -204,7 +204,7 @@ components:
     group: Basket
     id: dms-7311a3e4db
     link: ''
-    name: Basket Stage Queue - EU West
+    name: Basket Stage Queue - EU-West
     status: healthy
     type: deadmanssnitch
   dms-d46cd45930:
@@ -212,25 +212,9 @@ components:
     group: Basket
     id: dms-d46cd45930
     link: ''
-    name: Basket Stage Queue - US West
+    name: Basket Stage Queue - US-West
     status: healthy
     type: deadmanssnitch
-  synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
-    link: ''
-    name: Website US West
-    status: healthy
-    type: synthetics
-  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
-    link: ''
-    name: Website EU West
-    status: healthy
-    type: synthetics
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: true
     group: Mozilla Careers
@@ -239,12 +223,28 @@ components:
     name: Website Global
     status: healthy
     type: synthetics
+  synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
+    display: true
+    group: Mozilla Careers
+    id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
+    link: ''
+    name: Website US-West
+    status: healthy
+    type: synthetics
+  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
+    display: true
+    group: Mozilla Careers
+    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
+    link: ''
+    name: Website EU-West
+    status: healthy
+    type: synthetics
   nr-13687900:
     display: true
     group: Mozilla Careers
     id: nr-13687900
     link: ''
-    name: Application Instance US West
+    name: Application US-West
     status: healthy
     type: newrelic
   nr-13687580:
@@ -252,7 +252,7 @@ components:
     group: Mozilla Careers
     id: nr-13687580
     link: ''
-    name: Application Instance EU West
+    name: Application EU-West
     status: healthy
     type: newrelic
   nr-13687960:
@@ -260,7 +260,7 @@ components:
     group: Mozilla Careers
     id: nr-13687960
     link: ''
-    name: careers-stage-us-west
+    name: careers-stage-US-West
     status: healthy
     type: newrelic
   dms-943d73ab83:
@@ -303,6 +303,14 @@ components:
     name: developer.allizom.org
     status: healthy
     type: newrelic
+  synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
+    display: true
+    group: Mozilla Developer Network
+    id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
+    link: https://developer.mozilla.org
+    name: Website
+    status: healthy
+    type: synthetics
   nr-13782058:
     display: true
     group: Mozilla Developer Network
@@ -319,12 +327,12 @@ components:
     name: Kumascript
     status: healthy
     type: newrelic
-  synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
+  synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: true
-    group: Mozilla Developer Network
-    id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
-    link: https://developer.mozilla.org
-    name: Website
+    group: Snippets Service
+    id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
+    link: https://snippets.cdn.mozilla.net
+    name: Snippets CDN
     status: healthy
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
@@ -335,14 +343,6 @@ components:
     name: Website US-West
     status: healthy
     type: synthetics
-  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
-    display: true
-    group: Snippets Service
-    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
-    link: ''
-    name: Admin Website
-    status: healthy
-    type: synthetics
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: true
     group: Snippets Service
@@ -351,12 +351,12 @@ components:
     name: Website EU-West
     status: healthy
     type: synthetics
-  synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
+  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: true
     group: Snippets Service
-    id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
+    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
     link: ''
-    name: Snippets CDN
+    name: Admin Website
     status: healthy
     type: synthetics
   nr-13688011:
@@ -364,7 +364,7 @@ components:
     group: Snippets Service
     id: nr-13688011
     link: ''
-    name: Admin Application US West
+    name: Admin Application US-West
     status: healthy
     type: newrelic
   nr-13687987:
@@ -372,7 +372,7 @@ components:
     group: Snippets Service
     id: nr-13687987
     link: ''
-    name: Application US West
+    name: Application US-West
     status: healthy
     type: newrelic
   nr-13687704:
@@ -380,7 +380,7 @@ components:
     group: Snippets Service
     id: nr-13687704
     link: ''
-    name: Application EU West
+    name: Application EU-West
     status: healthy
     type: newrelic
   nr-13687969:
@@ -388,7 +388,7 @@ components:
     group: Snippets Service
     id: nr-13687969
     link: ''
-    name: snippets-stage-us-west
+    name: snippets-stage-US-West
     status: healthy
     type: newrelic
   nr-13687560:
@@ -492,7 +492,7 @@ components:
     group: Infrastructure
     id: dms-2f4d809f94
     link: ''
-    name: Docker Cleanup Service - EU West
+    name: Docker Cleanup Service - EU-West
     status: healthy
     type: deadmanssnitch
   dms-3026bce6d3:
@@ -500,7 +500,7 @@ components:
     group: Infrastructure
     id: dms-3026bce6d3
     link: ''
-    name: Docker Cleanup Service - US West
+    name: Docker Cleanup Service - US-West
     status: healthy
     type: deadmanssnitch
   dms-b6a8280917:
