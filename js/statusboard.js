@@ -118,7 +118,7 @@ var ComponentList = React.createClass({
         for (var property in groups) {
             if (groups.hasOwnProperty(property)) {
                 componentGroups.push(
-                    <ComponentGroup name={property} components={groups[property]} />
+                    <ComponentGroup key={property} name={property} components={groups[property]} />
                 );
             }
         }
@@ -129,6 +129,17 @@ var ComponentList = React.createClass({
         );
     }
 });
+
+var Favicon = React.createClass({
+    componentDidUpdate() {
+        var favicon = document.getElementById('favicon');
+        favicon.href = "http://localhost:8000/img/favicon-" + this.props.status + ".ico";
+    },
+    render: function() {
+        return null;
+    }
+});
+
 
 var StatusBoard = React.createClass({
     getInitialState: function() {
@@ -192,6 +203,7 @@ var StatusBoard = React.createClass({
                  color={this.transformStatusToBootstrap(this.state.globalStatus)}/>
               <h1>Mozilla Marketing Status Board</h1>
               <ComponentList components={this.state.components} />
+              <Favicon status={this.state.globalStatus} />
             </div>
         );
     }
