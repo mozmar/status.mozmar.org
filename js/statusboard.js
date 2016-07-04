@@ -77,12 +77,18 @@ var ComponentGroup = React.createClass({
     },
     render: function() {
         var components = this.getComponents();
+        var header = null;
+        if (this.props.name != 'default') {
+            header = (
+                <li className="list-group-item list-group-item-info">
+                    {this.props.name}
+                </li>
+            );
+        }
         return (
             <ul className={"list-group"}>
-              <li className="list-group-item list-group-item-info">
-                {this.props.name}
-              </li>
-              {components}
+                {header}
+                {components}
             </ul>
         );
     }
@@ -91,7 +97,7 @@ var ComponentGroup = React.createClass({
 var ComponentList = React.createClass({
     generateGroups: function() {
         var groups = {
-            'Generic Alerts': []
+            default: []
         };
         this.props.components.forEach(function(component) {
             if (!component.display)
@@ -106,7 +112,7 @@ var ComponentList = React.createClass({
                 }
             }
             else {
-                groups['Generic Alerts'].push(component);
+                groups.default.push(component);
             }
 
         });
