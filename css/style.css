@@ -9,18 +9,18 @@ body {
     font-size: 16px;
 }
 
-.mybadge.healthy {
+.healthy {
     color: green;
 }
 
-.mybadge.pending {
+.pending {
     color: gray;
 }
 
-.mybadge.warning {
+.warning {
     color: orange;
 }
 
-.mybadge.failed {
+.failed {
     color: red;
 }
