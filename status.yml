@@ -1,28 +1,100 @@
 components:
-  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
-    display: true
-    group: mozilla.org
-    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
-    link: https://www.mozilla.org
-    name: Website CDN
-    status: healthy
-    type: synthetics
-  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
-    display: true
-    group: mozilla.org
-    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
+  dms-033e342441:
+    display: false
+    group: Snippets Service
+    id: dms-033e342441
     link: ''
-    name: Website US-West
+    name: Snippets Stage Update Product Details
     status: healthy
-    type: synthetics
-  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
+    type: deadmanssnitch
+  dms-078f7f5a2f:
     display: true
-    group: mozilla.org
-    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
+    group: Infrastructure
+    id: dms-078f7f5a2f
     link: ''
-    name: Website EU-West
+    name: CloudFlare to Datadog Sync
     status: healthy
-    type: synthetics
+    type: deadmanssnitch
+  dms-16e219cc55:
+    display: true
+    group: Basket
+    id: dms-16e219cc55
+    link: ''
+    name: Queue EU-West
+    status: healthy
+    type: deadmanssnitch
+  dms-2b20aff8d3:
+    display: false
+    group: Mozilla Careers
+    id: dms-2b20aff8d3
+    link: ''
+    name: Careers SyncJobvite Stage
+    status: healthy
+    type: deadmanssnitch
+  dms-2f4d809f94:
+    display: true
+    group: Infrastructure
+    id: dms-2f4d809f94
+    link: ''
+    name: Docker Cleanup Service - EU-West
+    status: healthy
+    type: deadmanssnitch
+  dms-3026bce6d3:
+    display: true
+    group: Infrastructure
+    id: dms-3026bce6d3
+    link: ''
+    name: Docker Cleanup Service - US-West
+    status: healthy
+    type: deadmanssnitch
+  dms-6eb44fe994:
+    display: true
+    group: Basket
+    id: dms-6eb44fe994
+    link: ''
+    name: Queue US-West
+    status: healthy
+    type: deadmanssnitch
+  dms-7311a3e4db:
+    display: false
+    group: Basket
+    id: dms-7311a3e4db
+    link: ''
+    name: Basket Stage Queue - EU-West
+    status: healthy
+    type: deadmanssnitch
+  dms-8166cac951:
+    display: true
+    group: Snippets Service
+    id: dms-8166cac951
+    link: ''
+    name: Update Product Details
+    status: healthy
+    type: deadmanssnitch
+  dms-943d73ab83:
+    display: true
+    group: Mozilla Careers
+    id: dms-943d73ab83
+    link: ''
+    name: Jobvite Syncing
+    status: healthy
+    type: deadmanssnitch
+  dms-b6a8280917:
+    display: true
+    group: Infrastructure
+    id: dms-b6a8280917
+    link: ''
+    name: Status Board Update
+    status: healthy
+    type: deadmanssnitch
+  dms-d46cd45930:
+    display: false
+    group: Basket
+    id: dms-d46cd45930
+    link: ''
+    name: Basket Stage Queue - US-West
+    status: healthy
+    type: deadmanssnitch
   dms-e7b32a3078:
     display: true
     group: mozilla.org
@@ -39,6 +111,14 @@ components:
     name: Periodic Tasks - US-West
     status: healthy
     type: deadmanssnitch
+  nr-13674646:
+    display: false
+    group: Mozilla Support
+    id: nr-13674646
+    link: ''
+    name: support-dev.allizom.org
+    status: healthy
+    type: newrelic
   nr-13687503:
     display: false
     group: mozilla.org
@@ -47,122 +127,18 @@ components:
     name: bedrock-stage-eu-west
     status: healthy
     type: newrelic
-  nr-13687785:
+  nr-13687560:
+    display: false
+    group: Snippets Service
+    id: nr-13687560
+    link: ''
+    name: snippets-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687580:
     display: true
-    group: mozilla.org
-    id: nr-13687785
-    link: ''
-    name: Application EU-West
-    status: healthy
-    type: newrelic
-  nr-13688073:
-    display: true
-    group: mozilla.org
-    id: nr-13688073
-    link: ''
-    name: Application US-West
-    status: healthy
-    type: newrelic
-  nr-13688101:
-    display: false
-    group: mozilla.org
-    id: nr-13688101
-    link: ''
-    name: bedrock-stage-US-West
-    status: healthy
-    type: newrelic
-  nr-13701297:
-    display: false
-    group: mozilla.org
-    id: nr-13701297
-    link: ''
-    name: bedrock-dev-US-West
-    status: healthy
-    type: newrelic
-  nr-13701320:
-    display: false
-    group: mozilla.org
-    id: nr-13701320
-    link: ''
-    name: bedrock-dev-eu-west
-    status: healthy
-    type: newrelic
-  nr-13792729:
-    display: true
-    group: mozilla.org
-    id: nr-13792729
-    link: ''
-    name: Nucleus US-West
-    status: healthy
-    type: newrelic
-  synthetics-c88c9131-1412-4687-bd01-05193089dfce:
-    display: true
-    group: Basket
-    id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
-    link: ''
-    name: Website
-    status: healthy
-    type: synthetics
-  nr-14752155:
-    display: false
-    group: Basket
-    id: nr-14752155
-    link: ''
-    name: basket-demo-sfdc-US-West
-    status: pending
-    type: newrelic
-  nr-14096517:
-    display: false
-    group: Basket
-    id: nr-14096517
-    link: ''
-    name: basket-demo-pmac-US-West
-    status: pending
-    type: newrelic
-  nr-13688108:
-    display: true
-    group: Basket
-    id: nr-13688108
-    link: ''
-    name: Admin Application US-West
-    status: healthy
-    type: newrelic
-  nr-13698376:
-    display: false
-    group: Basket
-    id: nr-13698376
-    link: ''
-    name: basket-admin-stage-US-West
-    status: healthy
-    type: newrelic
-  nr-13687975:
-    display: false
-    group: Basket
-    id: nr-13687975
-    link: ''
-    name: basket-stage-US-West
-    status: healthy
-    type: newrelic
-  nr-13688024:
-    display: false
-    group: Basket
-    id: nr-13688024
-    link: ''
-    name: basket-dev-US-West
-    status: healthy
-    type: newrelic
-  nr-13688032:
-    display: true
-    group: Basket
-    id: nr-13688032
-    link: ''
-    name: Application US-West
-    status: healthy
-    type: newrelic
-  nr-13687653:
-    display: true
-    group: Basket
-    id: nr-13687653
+    group: Mozilla Careers
+    id: nr-13687580
     link: ''
     name: Application EU-West
     status: healthy
@@ -183,62 +159,30 @@ components:
     name: basket-stage-eu-west
     status: healthy
     type: newrelic
-  dms-6eb44fe994:
+  nr-13687653:
     display: true
     group: Basket
-    id: dms-6eb44fe994
+    id: nr-13687653
     link: ''
-    name: Queue US-West
+    name: Application EU-West
     status: healthy
-    type: deadmanssnitch
-  dms-16e219cc55:
+    type: newrelic
+  nr-13687704:
     display: true
-    group: Basket
-    id: dms-16e219cc55
+    group: Snippets Service
+    id: nr-13687704
     link: ''
-    name: Queue EU-West
-    status: healthy
-    type: deadmanssnitch
-  dms-7311a3e4db:
-    display: false
-    group: Basket
-    id: dms-7311a3e4db
-    link: ''
-    name: Basket Stage Queue - EU-West
-    status: healthy
-    type: deadmanssnitch
-  dms-d46cd45930:
-    display: false
-    group: Basket
-    id: dms-d46cd45930
-    link: ''
-    name: Basket Stage Queue - US-West
-    status: healthy
-    type: deadmanssnitch
-  synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
+    name: Application EU-West
+    status: warning
+    type: newrelic
+  nr-13687785:
     display: true
-    group: Mozilla Careers
-    id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
-    link: https://careers.mozilla.org
-    name: Website Global
-    status: healthy
-    type: synthetics
-  synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
+    group: mozilla.org
+    id: nr-13687785
     link: ''
-    name: Website US-West
+    name: Application EU-West
     status: healthy
-    type: synthetics
-  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
-    link: ''
-    name: Website EU-West
-    status: healthy
-    type: synthetics
+    type: newrelic
   nr-13687900:
     display: true
     group: Mozilla Careers
@@ -247,12 +191,12 @@ components:
     name: Application US-West
     status: healthy
     type: newrelic
-  nr-13687580:
+  nr-13687919:
     display: true
-    group: Mozilla Careers
-    id: nr-13687580
+    group: Master Firefox OS
+    id: nr-13687919
     link: ''
-    name: Application EU-West
+    name: Application
     status: healthy
     type: newrelic
   nr-13687960:
@@ -263,28 +207,108 @@ components:
     name: careers-stage-US-West
     status: healthy
     type: newrelic
-  dms-943d73ab83:
+  nr-13687969:
+    display: false
+    group: Snippets Service
+    id: nr-13687969
+    link: ''
+    name: snippets-stage-US-West
+    status: healthy
+    type: newrelic
+  nr-13687975:
+    display: false
+    group: Basket
+    id: nr-13687975
+    link: ''
+    name: basket-stage-US-West
+    status: healthy
+    type: newrelic
+  nr-13687987:
     display: true
-    group: Mozilla Careers
-    id: dms-943d73ab83
+    group: Snippets Service
+    id: nr-13687987
     link: ''
-    name: Jobvite Syncing
+    name: Application US-West
     status: healthy
-    type: deadmanssnitch
-  dms-2b20aff8d3:
-    display: false
-    group: Mozilla Careers
-    id: dms-2b20aff8d3
+    type: newrelic
+  nr-13688011:
+    display: true
+    group: Snippets Service
+    id: nr-13688011
     link: ''
-    name: Careers SyncJobvite Stage
+    name: Admin Application US-West
     status: healthy
-    type: deadmanssnitch
-  nr-13851870:
+    type: newrelic
+  nr-13688024:
     display: false
-    group: Mozilla Developer Network
-    id: nr-13851870
+    group: Basket
+    id: nr-13688024
     link: ''
-    name: developer-dev.allizom.org
+    name: basket-dev-US-West
+    status: healthy
+    type: newrelic
+  nr-13688032:
+    display: true
+    group: Basket
+    id: nr-13688032
+    link: ''
+    name: Application US-West
+    status: healthy
+    type: newrelic
+  nr-13688046:
+    display: false
+    group: Master Firefox OS
+    id: nr-13688046
+    link: ''
+    name: masterfirefoxos_dev
+    status: healthy
+    type: newrelic
+  nr-13688073:
+    display: true
+    group: mozilla.org
+    id: nr-13688073
+    link: ''
+    name: Application US-West
+    status: healthy
+    type: newrelic
+  nr-13688101:
+    display: false
+    group: mozilla.org
+    id: nr-13688101
+    link: ''
+    name: bedrock-stage-US-West
+    status: healthy
+    type: newrelic
+  nr-13688108:
+    display: true
+    group: Basket
+    id: nr-13688108
+    link: ''
+    name: Admin Application US-West
+    status: healthy
+    type: newrelic
+  nr-13698376:
+    display: false
+    group: Basket
+    id: nr-13698376
+    link: ''
+    name: basket-admin-stage-US-West
+    status: healthy
+    type: newrelic
+  nr-13701297:
+    display: false
+    group: mozilla.org
+    id: nr-13701297
+    link: ''
+    name: bedrock-dev-US-West
+    status: healthy
+    type: newrelic
+  nr-13701320:
+    display: false
+    group: mozilla.org
+    id: nr-13701320
+    link: ''
+    name: bedrock-dev-eu-west
     status: healthy
     type: newrelic
   nr-13708399:
@@ -303,14 +327,22 @@ components:
     name: developer.allizom.org
     status: healthy
     type: newrelic
-  synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
-    display: true
-    group: Mozilla Developer Network
-    id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
-    link: https://developer.mozilla.org
-    name: Website
+  nr-13710560:
+    display: false
+    group: Mozilla Support
+    id: nr-13710560
+    link: ''
+    name: support.allizom.org
     status: healthy
-    type: synthetics
+    type: newrelic
+  nr-13778280:
+    display: true
+    group: Browser Compatibility
+    id: nr-13778280
+    link: ''
+    name: Application
+    status: healthy
+    type: newrelic
   nr-13782058:
     display: true
     group: Mozilla Developer Network
@@ -327,102 +359,14 @@ components:
     name: Kumascript
     status: healthy
     type: newrelic
-  synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
+  nr-13792729:
     display: true
-    group: Snippets Service
-    id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
-    link: https://snippets.cdn.mozilla.net
-    name: Snippets CDN
-    status: healthy
-    type: synthetics
-  synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
-    display: true
-    group: Snippets Service
-    id: synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3
+    group: mozilla.org
+    id: nr-13792729
     link: ''
-    name: Website US-West
-    status: healthy
-    type: synthetics
-  synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
-    display: true
-    group: Snippets Service
-    id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
-    link: ''
-    name: Website EU-West
-    status: healthy
-    type: synthetics
-  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
-    display: true
-    group: Snippets Service
-    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
-    link: ''
-    name: Admin Website
-    status: healthy
-    type: synthetics
-  nr-13688011:
-    display: true
-    group: Snippets Service
-    id: nr-13688011
-    link: ''
-    name: Admin Application US-West
+    name: Nucleus US-West
     status: healthy
     type: newrelic
-  nr-13687987:
-    display: true
-    group: Snippets Service
-    id: nr-13687987
-    link: ''
-    name: Application US-West
-    status: healthy
-    type: newrelic
-  nr-13687704:
-    display: true
-    group: Snippets Service
-    id: nr-13687704
-    link: ''
-    name: Application EU-West
-    status: healthy
-    type: newrelic
-  nr-13687969:
-    display: false
-    group: Snippets Service
-    id: nr-13687969
-    link: ''
-    name: snippets-stage-US-West
-    status: healthy
-    type: newrelic
-  nr-13687560:
-    display: false
-    group: Snippets Service
-    id: nr-13687560
-    link: ''
-    name: snippets-stage-eu-west
-    status: healthy
-    type: newrelic
-  dms-8166cac951:
-    display: true
-    group: Snippets Service
-    id: dms-8166cac951
-    link: ''
-    name: Update Product Details
-    status: healthy
-    type: deadmanssnitch
-  dms-033e342441:
-    display: false
-    group: Snippets Service
-    id: dms-033e342441
-    link: ''
-    name: Snippets Stage Update Product Details
-    status: healthy
-    type: deadmanssnitch
-  synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
-    display: true
-    group: Mozilla Support
-    id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
-    link: https://support.mozilla.org
-    name: Website
-    status: healthy
-    type: synthetics
   nr-13801074:
     display: true
     group: Mozilla Support
@@ -431,94 +375,22 @@ components:
     name: Application
     status: healthy
     type: newrelic
-  nr-13710560:
+  nr-13851870:
     display: false
-    group: Mozilla Support
-    id: nr-13710560
+    group: Mozilla Developer Network
+    id: nr-13851870
     link: ''
-    name: support.allizom.org
+    name: developer-dev.allizom.org
     status: healthy
     type: newrelic
-  nr-13674646:
+  nr-14096517:
     display: false
-    group: Mozilla Support
-    id: nr-13674646
+    group: Basket
+    id: nr-14096517
     link: ''
-    name: support-dev.allizom.org
-    status: healthy
+    name: basket-demo-pmac-US-West
+    status: pending
     type: newrelic
-  nr-13778280:
-    display: true
-    group: Browser Compatibility
-    id: nr-13778280
-    link: ''
-    name: Application
-    status: healthy
-    type: newrelic
-  synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
-    display: true
-    group: Master Firefox OS
-    id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
-    link: https://masterfirefoxos.mozilla.org
-    name: Website
-    status: healthy
-    type: synthetics
-  nr-13687919:
-    display: true
-    group: Master Firefox OS
-    id: nr-13687919
-    link: ''
-    name: Application
-    status: healthy
-    type: newrelic
-  nr-13688046:
-    display: false
-    group: Master Firefox OS
-    id: nr-13688046
-    link: ''
-    name: masterfirefoxos_dev
-    status: healthy
-    type: newrelic
-  dms-078f7f5a2f:
-    display: true
-    group: Infrastructure
-    id: dms-078f7f5a2f
-    link: ''
-    name: CloudFlare to Datadog Sync
-    status: healthy
-    type: deadmanssnitch
-  dms-2f4d809f94:
-    display: true
-    group: Infrastructure
-    id: dms-2f4d809f94
-    link: ''
-    name: Docker Cleanup Service - EU-West
-    status: healthy
-    type: deadmanssnitch
-  dms-3026bce6d3:
-    display: true
-    group: Infrastructure
-    id: dms-3026bce6d3
-    link: ''
-    name: Docker Cleanup Service - US-West
-    status: healthy
-    type: deadmanssnitch
-  dms-b6a8280917:
-    display: true
-    group: Infrastructure
-    id: dms-b6a8280917
-    link: ''
-    name: Status Board Update
-    status: healthy
-    type: deadmanssnitch
-  synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
-    display: true
-    group: Infrastructure
-    id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
-    link: http://status.mozmar.org
-    name: MozMar Status Board
-    status: failed
-    type: synthetics
   nr-14185720:
     display: false
     group: null
@@ -535,6 +407,30 @@ components:
     name: Python Agent Test
     status: pending
     type: newrelic
+  nr-14752155:
+    display: false
+    group: Basket
+    id: nr-14752155
+    link: ''
+    name: basket-demo-sfdc-US-West
+    status: pending
+    type: newrelic
+  synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
+    display: true
+    group: Snippets Service
+    id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
+    link: https://snippets.cdn.mozilla.net
+    name: Snippets CDN
+    status: healthy
+    type: synthetics
+  synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
+    display: true
+    group: Mozilla Support
+    id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
+    link: https://support.mozilla.org
+    name: Website
+    status: healthy
+    type: synthetics
   synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
     display: false
     group: null
@@ -543,6 +439,110 @@ components:
     name: Test
     status: healthy
     type: synthetics
+  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
+    display: true
+    group: Mozilla Careers
+    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
+    link: ''
+    name: Website EU-West
+    status: healthy
+    type: synthetics
+  synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
+    display: true
+    group: Mozilla Careers
+    id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
+    link: ''
+    name: Website US-West
+    status: healthy
+    type: synthetics
+  synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
+    display: true
+    group: Mozilla Careers
+    id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
+    link: https://careers.mozilla.org
+    name: Website Global
+    status: healthy
+    type: synthetics
+  synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
+    display: true
+    group: Snippets Service
+    id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
+    link: ''
+    name: Website EU-West
+    status: healthy
+    type: synthetics
+  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
+    display: true
+    group: mozilla.org
+    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
+    link: https://www.mozilla.org
+    name: Website CDN
+    status: healthy
+    type: synthetics
+  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
+    display: true
+    group: mozilla.org
+    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
+    link: ''
+    name: Website US-West
+    status: healthy
+    type: synthetics
+  synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
+    display: true
+    group: Infrastructure
+    id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
+    link: http://status.mozmar.org
+    name: MozMar Status Board
+    status: healthy
+    type: synthetics
+  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
+    display: true
+    group: Snippets Service
+    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
+    link: ''
+    name: Admin Website
+    status: healthy
+    type: synthetics
+  synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
+    display: true
+    group: Mozilla Developer Network
+    id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
+    link: https://developer.mozilla.org
+    name: Website
+    status: healthy
+    type: synthetics
+  synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
+    display: true
+    group: Snippets Service
+    id: synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3
+    link: ''
+    name: Website US-West
+    status: healthy
+    type: synthetics
+  synthetics-c88c9131-1412-4687-bd01-05193089dfce:
+    display: true
+    group: Basket
+    id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
+    link: ''
+    name: Website
+    status: healthy
+    type: synthetics
+  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
+    display: true
+    group: mozilla.org
+    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
+    link: ''
+    name: Website EU-West
+    status: healthy
+    type: synthetics
+  synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
+    display: true
+    group: Master Firefox OS
+    id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
+    link: https://masterfirefoxos.mozilla.org
+    name: Website
+    status: healthy
+    type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
