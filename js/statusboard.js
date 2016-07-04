@@ -158,7 +158,7 @@ var ComponentList = React.createClass({
 var Favicon = React.createClass({
     componentDidUpdate() {
         var favicon = document.getElementById('favicon');
-        favicon.href = "http://localhost:8000/img/favicon-" + this.props.status + ".ico";
+        favicon.href = "/img/favicon-" + this.props.status + ".ico";
     },
     render: function() {
         return null;
