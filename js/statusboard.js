@@ -1,6 +1,25 @@
 var GlobalStatus = React.createClass({
+    statusToColor: function(status) {
+        switch(status) {
+        case 'healthy':
+            return 'success';
+            break;
+        case 'warning':
+            return 'warning';
+            break;
+        case 'failed':
+            return 'danger';
+            break;
+        case 'pending':
+            return 'info';
+            break;
+        default:
+            return '';
+            break;
+        }
+    },
     render: function() {
-        var className = "alert alert-" + this.props.color;
+        var className = "alert alert-" + this.statusToColor(this.props.status);
         return (
             <div className={className} role="alert">
               {this.props.message}
@@ -155,22 +174,6 @@ var StatusBoard = React.createClass({
             components: []
         };
     },
-    transformStatusToBootstrap: function(status) {
-        switch(status) {
-        case 'healthy':
-            return 'success';
-            break;
-        case 'failed':
-            return 'danger';
-            break;
-        case 'pending':
-            return 'info';
-            break;
-        default:
-            return '';
-            break;
-        }
-    },
     updateStatus: function() {
         $.ajax({
             url: 'status.yml',
@@ -206,7 +209,7 @@ var StatusBoard = React.createClass({
             <div>
               <GlobalStatus
                  message={this.state.globalStatusMessage}
-                 color={this.transformStatusToBootstrap(this.state.globalStatus)}/>
+                 status={this.state.globalStatus}/>
               <h1>Mozilla Marketing Status Board</h1>
               <ComponentList components={this.state.components} />
               <Favicon status={this.state.globalStatus} />
