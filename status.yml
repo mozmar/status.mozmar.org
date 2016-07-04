@@ -149,7 +149,7 @@ components:
     id: nr-13687607
     link: ''
     name: basket-dev-eu-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13687628:
     display: false
@@ -245,7 +245,7 @@ components:
     id: nr-13688024
     link: ''
     name: basket-dev-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13688032:
     display: true
@@ -285,7 +285,7 @@ components:
     id: nr-13688108
     link: ''
     name: basket-admin-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13698376:
     display: false
@@ -293,7 +293,7 @@ components:
     id: nr-13698376
     link: ''
     name: basket-admin-stage-us-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13701297:
     display: false
@@ -543,6 +543,6 @@ components:
     name: MasterFirefoxOS
     status: healthy
     type: synthetics
-status:
-  description: Some systems are in trouble
-  name: failed
+globalStatus:
+  message: Some systems are in trouble
+  status: failed
