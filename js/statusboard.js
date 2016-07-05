@@ -165,13 +165,24 @@ var Favicon = React.createClass({
     }
 });
 
+var LastUpdate = React.createClass({
+    componentDidUpdate() {
+        var lastUpdate = document.getElementById('last-update');
+        lastUpdate.textContent = "Last Update: "+ this.props.lastUpdate;
+    },
+    render: function() {
+        return null;
+    }
+});
+
 
 var StatusBoard = React.createClass({
     getInitialState: function() {
         return {
             globalStatusMessage: 'Fetching data.',
             globalStatus: 'pending',
-            components: []
+            components: [],
+            lastUpdate: null
         };
     },
     updateStatus: function() {
@@ -187,7 +198,8 @@ var StatusBoard = React.createClass({
                 this.setState({
                     globalStatus: statusData.globalStatus.status,
                     globalStatusMessage: statusData.globalStatus.message,
-                    components: components
+                    components: components,
+                    lastUpdate: new Date()
                 });
             }.bind(this),
             error: function(data) {
@@ -213,6 +225,8 @@ var StatusBoard = React.createClass({
               <h1>Mozilla Marketing Status Board</h1>
               <ComponentList components={this.state.components} />
               <Favicon status={this.state.globalStatus} />
+              <LastUpdate lastUpdate={this.state.lastUpdate}/>
+
             </div>
         );
     }

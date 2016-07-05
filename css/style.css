@@ -24,3 +24,7 @@ body {
 .failed {
     color: red;
 }
+
+#last-update {
+    float: right;
+}
