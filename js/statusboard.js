@@ -222,7 +222,11 @@ var StatusBoard = React.createClass({
               <GlobalStatus
                  message={this.state.globalStatusMessage}
                  status={this.state.globalStatus}/>
-              <h1>Mozilla Marketing Status Board</h1>
+              <div id="logo">
+                <a href="http://mozmar.status.org">
+                  <img src="/img/logo.png" />
+                </a>
+              </div>
               <ComponentList components={this.state.components} />
               <Favicon status={this.state.globalStatus} />
               <LastUpdate lastUpdate={this.state.lastUpdate}/>
