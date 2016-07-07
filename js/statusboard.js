@@ -223,7 +223,7 @@ var StatusBoard = React.createClass({
                  message={this.state.globalStatusMessage}
                  status={this.state.globalStatus}/>
               <div id="logo">
-                <a href="http://mozmar.status.org">
+                <a href="http://status.mozmar.org">
                   <img src="/img/logo.png" />
                 </a>
               </div>
