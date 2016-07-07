@@ -535,14 +535,6 @@ components:
     name: Website EU-West
     status: healthy
     type: synthetics
-  synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
-    display: true
-    group: Master Firefox OS
-    id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
-    link: https://masterfirefoxos.mozilla.org
-    name: Website
-    status: healthy
-    type: synthetics
 globalStatus:
   message: All systems healthy
   status: healthy
