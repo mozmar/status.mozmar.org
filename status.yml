@@ -397,7 +397,7 @@ components:
     id: nr-14185720
     link: ''
     name: Python Application
-    status: pending
+    status: healthy
     type: newrelic
   nr-14643363:
     display: false
