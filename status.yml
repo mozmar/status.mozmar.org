@@ -537,7 +537,7 @@ components:
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: true
-    group: null
+    group: Master Firefox OS
     id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
     link: ''
     name: MasterFirefoxOS
