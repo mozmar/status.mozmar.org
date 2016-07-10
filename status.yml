@@ -165,7 +165,7 @@ components:
     id: nr-13687653
     link: ''
     name: Application EU-West
-    status: healthy
+    status: failed
     type: newrelic
   nr-13687704:
     display: true
@@ -544,5 +544,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
