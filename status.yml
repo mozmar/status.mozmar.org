@@ -501,7 +501,7 @@ components:
     id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
     link: ''
     name: Website EU-West
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: true
@@ -512,5 +512,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
