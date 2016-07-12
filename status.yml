@@ -383,38 +383,6 @@ components:
     name: developer-dev.allizom.org
     status: healthy
     type: newrelic
-  nr-14096517:
-    display: false
-    group: Basket
-    id: nr-14096517
-    link: ''
-    name: basket-demo-pmac-US-West
-    status: pending
-    type: newrelic
-  nr-14185720:
-    display: false
-    group: null
-    id: nr-14185720
-    link: ''
-    name: Python Application
-    status: pending
-    type: newrelic
-  nr-14643363:
-    display: false
-    group: null
-    id: nr-14643363
-    link: ''
-    name: Python Agent Test
-    status: pending
-    type: newrelic
-  nr-14752155:
-    display: false
-    group: Basket
-    id: nr-14752155
-    link: ''
-    name: basket-demo-sfdc-US-West
-    status: pending
-    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: true
     group: Snippets Service
