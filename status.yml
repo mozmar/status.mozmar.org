@@ -415,14 +415,6 @@ components:
     name: Website CDN
     status: healthy
     type: synthetics
-  synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
-    display: true
-    group: mozilla.org
-    id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
-    link: ''
-    name: Website US-West
-    status: healthy
-    type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: true
     group: Infrastructure
