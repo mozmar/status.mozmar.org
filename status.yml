@@ -383,12 +383,28 @@ components:
     name: developer-dev.allizom.org
     status: healthy
     type: newrelic
+  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
+    display: true
+    group: null
+    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
+    link: ''
+    name: www.mozilla.org
+    status: healthy
+    type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: true
     group: null
     id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
     link: ''
     name: MozMar Status Board
+    status: healthy
+    type: synthetics
+  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
+    display: true
+    group: null
+    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
+    link: ''
+    name: Bedrock Prod EU-west
     status: healthy
     type: synthetics
 globalStatus:
