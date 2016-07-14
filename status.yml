@@ -383,6 +383,38 @@ components:
     name: developer-dev.allizom.org
     status: healthy
     type: newrelic
+  synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
+    display: true
+    group: null
+    id: synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54
+    link: ''
+    name: Test
+    status: healthy
+    type: synthetics
+  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
+    display: true
+    group: null
+    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
+    link: ''
+    name: Careers EU-West
+    status: healthy
+    type: synthetics
+  synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
+    display: true
+    group: null
+    id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
+    link: ''
+    name: careers.mozilla.org
+    status: healthy
+    type: synthetics
+  synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
+    display: true
+    group: null
+    id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
+    link: ''
+    name: Snippets Prod EU-West
+    status: healthy
+    type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: true
     group: null
@@ -397,6 +429,22 @@ components:
     id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
     link: ''
     name: MozMar Status Board
+    status: healthy
+    type: synthetics
+  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
+    display: true
+    group: null
+    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
+    link: ''
+    name: Snippets Admin
+    status: healthy
+    type: synthetics
+  synthetics-c88c9131-1412-4687-bd01-05193089dfce:
+    display: true
+    group: null
+    id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
+    link: ''
+    name: Basket Prod
     status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
