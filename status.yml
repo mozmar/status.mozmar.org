@@ -391,14 +391,6 @@ components:
     name: Snippets CDN
     status: healthy
     type: synthetics
-  synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
-    display: true
-    group: Mozilla Support
-    id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
-    link: https://support.mozilla.org
-    name: Website
-    status: healthy
-    type: synthetics
   synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
     display: false
     group: null
