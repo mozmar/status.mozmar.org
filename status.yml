@@ -383,30 +383,6 @@ components:
     name: developer-dev.allizom.org
     status: healthy
     type: newrelic
-  synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
-    display: true
-    group: mozilla.org
-    id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
-    link: https://www.mozilla.org
-    name: Website CDN
-    status: healthy
-    type: synthetics
-  synthetics-c88c9131-1412-4687-bd01-05193089dfce:
-    display: true
-    group: Basket
-    id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
-    link: ''
-    name: Website
-    status: healthy
-    type: synthetics
-  synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
-    display: true
-    group: mozilla.org
-    id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
-    link: ''
-    name: Website EU-West
-    status: healthy
-    type: synthetics
 globalStatus:
   message: All systems healthy
   status: healthy
