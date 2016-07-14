@@ -407,36 +407,12 @@ components:
     name: Test
     status: healthy
     type: synthetics
-  synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
-    link: ''
-    name: Website EU-West
-    status: healthy
-    type: synthetics
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: true
     group: Mozilla Careers
     id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
     link: ''
     name: Website US-West
-    status: healthy
-    type: synthetics
-  synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
-    display: true
-    group: Mozilla Careers
-    id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
-    link: https://careers.mozilla.org
-    name: Website Global
-    status: healthy
-    type: synthetics
-  synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
-    display: true
-    group: Snippets Service
-    id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
-    link: ''
-    name: Website EU-West
     status: healthy
     type: synthetics
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
@@ -461,14 +437,6 @@ components:
     id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
     link: http://status.mozmar.org
     name: MozMar Status Board
-    status: healthy
-    type: synthetics
-  synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
-    display: true
-    group: Snippets Service
-    id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
-    link: ''
-    name: Admin Website
     status: healthy
     type: synthetics
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
