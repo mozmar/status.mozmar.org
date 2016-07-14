@@ -383,6 +383,14 @@ components:
     name: developer-dev.allizom.org
     status: healthy
     type: newrelic
+  synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
+    display: true
+    group: null
+    id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
+    link: ''
+    name: MozMar Status Board
+    status: healthy
+    type: synthetics
 globalStatus:
   message: All systems healthy
   status: healthy
