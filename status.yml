@@ -509,7 +509,7 @@ components:
     id: synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e
     link: ''
     name: Snippets Stats EU-West
-    status: failed
+    status: healthy
     type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: true
@@ -528,5 +528,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
