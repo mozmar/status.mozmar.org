@@ -495,6 +495,14 @@ components:
     name: Basket Prod
     status: healthy
     type: synthetics
+  synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
+    display: true
+    group: null
+    id: synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e
+    link: ''
+    name: Snippets Stats EU-West
+    status: failed
+    type: synthetics
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: true
     group: null
@@ -512,5 +520,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
