@@ -237,7 +237,7 @@ components:
     id: nr-13688011
     link: ''
     name: Admin Application US-West
-    status: healthy
+    status: warning
     type: newrelic
   nr-13688024:
     display: false
@@ -528,5 +528,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are experiencing issues
+  status: warning
