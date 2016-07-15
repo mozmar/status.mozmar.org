@@ -407,6 +407,14 @@ components:
     name: Test
     status: healthy
     type: synthetics
+  synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124:
+    display: true
+    group: null
+    id: synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124
+    link: ''
+    name: Snippets Stats US-West
+    status: healthy
+    type: synthetics
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: true
     group: null
