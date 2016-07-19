@@ -133,7 +133,7 @@ components:
     id: nr-13687560
     link: ''
     name: snippets-stage-eu-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13687580:
     display: true
