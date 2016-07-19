@@ -205,7 +205,7 @@ components:
     id: nr-13687960
     link: ''
     name: careers-stage-US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13687969:
     display: false
