@@ -77,7 +77,7 @@ components:
     id: dms-943d73ab83
     link: ''
     name: Jobvite Syncing
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-b6a8280917:
     display: true
@@ -528,5 +528,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
