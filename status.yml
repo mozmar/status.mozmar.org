@@ -365,7 +365,7 @@ components:
     id: nr-13792729
     link: ''
     name: Nucleus US-West
-    status: healthy
+    status: pending
     type: newrelic
   nr-13801074:
     display: true
