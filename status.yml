@@ -285,7 +285,7 @@ components:
     id: nr-13688108
     link: ''
     name: Admin Application US-West
-    status: pending
+    status: healthy
     type: newrelic
   nr-13698376:
     display: false
