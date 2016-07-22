@@ -111,13 +111,285 @@ components:
     name: Periodic Tasks - US-West
     status: healthy
     type: deadmanssnitch
-  nr-12696530:
+  nr-13674646:
     display: true
     group: null
-    id: nr-12696530
+    id: nr-13674646
     link: ''
-    name: knap
+    name: support-dev.allizom.org
     status: healthy
+    type: newrelic
+  nr-13687503:
+    display: true
+    group: null
+    id: nr-13687503
+    link: ''
+    name: bedrock-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687560:
+    display: true
+    group: null
+    id: nr-13687560
+    link: ''
+    name: snippets-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687580:
+    display: true
+    group: null
+    id: nr-13687580
+    link: ''
+    name: careers-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687607:
+    display: true
+    group: null
+    id: nr-13687607
+    link: ''
+    name: basket-dev-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687628:
+    display: true
+    group: null
+    id: nr-13687628
+    link: ''
+    name: basket-stage-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687653:
+    display: true
+    group: null
+    id: nr-13687653
+    link: ''
+    name: basket-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687704:
+    display: true
+    group: null
+    id: nr-13687704
+    link: ''
+    name: snippets-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687785:
+    display: true
+    group: null
+    id: nr-13687785
+    link: ''
+    name: bedrock-prod-eu-west
+    status: healthy
+    type: newrelic
+  nr-13687900:
+    display: true
+    group: null
+    id: nr-13687900
+    link: ''
+    name: careers-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13687919:
+    display: true
+    group: null
+    id: nr-13687919
+    link: ''
+    name: masterfirefoxos_prod
+    status: healthy
+    type: newrelic
+  nr-13687960:
+    display: true
+    group: null
+    id: nr-13687960
+    link: ''
+    name: careers-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687969:
+    display: true
+    group: null
+    id: nr-13687969
+    link: ''
+    name: snippets-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687975:
+    display: true
+    group: null
+    id: nr-13687975
+    link: ''
+    name: basket-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13687987:
+    display: true
+    group: null
+    id: nr-13687987
+    link: ''
+    name: snippets-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688011:
+    display: true
+    group: null
+    id: nr-13688011
+    link: ''
+    name: snippets-admin-us-west
+    status: healthy
+    type: newrelic
+  nr-13688024:
+    display: true
+    group: null
+    id: nr-13688024
+    link: ''
+    name: basket-dev-us-west
+    status: healthy
+    type: newrelic
+  nr-13688032:
+    display: true
+    group: null
+    id: nr-13688032
+    link: ''
+    name: basket-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688046:
+    display: true
+    group: null
+    id: nr-13688046
+    link: ''
+    name: masterfirefoxos_dev
+    status: healthy
+    type: newrelic
+  nr-13688073:
+    display: true
+    group: null
+    id: nr-13688073
+    link: ''
+    name: bedrock-prod-us-west
+    status: healthy
+    type: newrelic
+  nr-13688101:
+    display: true
+    group: null
+    id: nr-13688101
+    link: ''
+    name: bedrock-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13688108:
+    display: true
+    group: null
+    id: nr-13688108
+    link: ''
+    name: basket-admin-us-west
+    status: healthy
+    type: newrelic
+  nr-13698376:
+    display: true
+    group: null
+    id: nr-13698376
+    link: ''
+    name: basket-admin-stage-us-west
+    status: healthy
+    type: newrelic
+  nr-13701297:
+    display: true
+    group: null
+    id: nr-13701297
+    link: ''
+    name: bedrock-dev-us-west
+    status: healthy
+    type: newrelic
+  nr-13701320:
+    display: true
+    group: null
+    id: nr-13701320
+    link: ''
+    name: bedrock-dev-eu-west
+    status: pending
+    type: newrelic
+  nr-13708399:
+    display: true
+    group: null
+    id: nr-13708399
+    link: ''
+    name: developer.allizom.org-kumascript
+    status: healthy
+    type: newrelic
+  nr-13708738:
+    display: true
+    group: null
+    id: nr-13708738
+    link: ''
+    name: developer.allizom.org
+    status: healthy
+    type: newrelic
+  nr-13710560:
+    display: true
+    group: null
+    id: nr-13710560
+    link: ''
+    name: support.allizom.org
+    status: healthy
+    type: newrelic
+  nr-13778280:
+    display: true
+    group: null
+    id: nr-13778280
+    link: ''
+    name: browsercompat.herokuapp.com
+    status: healthy
+    type: newrelic
+  nr-13782058:
+    display: true
+    group: null
+    id: nr-13782058
+    link: ''
+    name: developer.mozilla.org
+    status: healthy
+    type: newrelic
+  nr-13786029:
+    display: true
+    group: null
+    id: nr-13786029
+    link: ''
+    name: developer.mozilla.org-kumascript
+    status: healthy
+    type: newrelic
+  nr-13792729:
+    display: true
+    group: null
+    id: nr-13792729
+    link: ''
+    name: nucleus-sugar-us-west
+    status: healthy
+    type: newrelic
+  nr-13801074:
+    display: true
+    group: null
+    id: nr-13801074
+    link: ''
+    name: support.mozilla.org
+    status: healthy
+    type: newrelic
+  nr-13851870:
+    display: true
+    group: null
+    id: nr-13851870
+    link: ''
+    name: developer-dev.allizom.org
+    status: healthy
+    type: newrelic
+  nr-16405643:
+    display: true
+    group: null
+    id: nr-16405643
+    link: ''
+    name: Python Application
+    status: pending
     type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: true
