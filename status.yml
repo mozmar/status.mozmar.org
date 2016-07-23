@@ -293,7 +293,7 @@ components:
     id: nr-13698376
     link: ''
     name: basket-admin-stage-us-west
-    status: healthy
+    status: pending
     type: newrelic
   nr-13701297:
     display: true
