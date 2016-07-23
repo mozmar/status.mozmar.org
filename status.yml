@@ -493,7 +493,7 @@ components:
     id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
     link: ''
     name: Website
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: true
@@ -544,5 +544,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
