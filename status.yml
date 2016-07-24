@@ -29,7 +29,7 @@ components:
     id: dms-2b20aff8d3
     link: ''
     name: Careers SyncJobvite Stage
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-2f4d809f94:
     display: true
@@ -77,7 +77,7 @@ components:
     id: dms-943d73ab83
     link: ''
     name: Jobvite Syncing
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-b6a8280917:
     display: true
@@ -544,5 +544,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
