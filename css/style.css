@@ -1,39 +1,65 @@
 body {
-    margin: 15px 0 15px 0;
     background-color: #efefef;
+    margin: 15px 0 15px 0;
 }
 
-.mybadge {
-    background-color: unset;
-    color: unset;
+.status {
+    background-color: transparent;
+    background-position: top left;
+    background-repeat: no-repeat;
+    color: #000;
+    float: right;
     font-size: 16px;
+    height: 24px;
+    overflow: hidden;
+    text-indent: 120%;
+    white-space: nowrap;
+    width: 24px;
 }
 
 .healthy {
-    color: green;
+    background-image: url('/img/icon-ok.svg');
 }
 
 .pending {
-    color: gray;
+    background-image: url('/img/icon-info.svg');
 }
 
 .warning {
-    color: orange;
+    background-image: url('/img/icon-warning.svg');
 }
 
 .failed {
-    color: red;
+    background-image: url('/img/icon-alert.svg');
+}
+
+.status-link {
+    background-color: transparent;
+    background-image: url('/img/icon-link.svg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: 120%;
+    white-space: nowrap;
+    width: 16px;
 }
 
 #last-update {
     float: right;
 }
 
-#logo {
-    width:100%;
+h1 {
+    padding: .2em 0;
     text-align: center;
 }
 
-#logo img {
+h1 a {
+    display: block;
+}
+
+h1 img {
     max-width: 500px;
+    width: 100%;
 }
