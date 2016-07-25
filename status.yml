@@ -13,7 +13,7 @@ components:
     id: dms-078f7f5a2f
     link: ''
     name: CloudFlare to Datadog Sync
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: true
@@ -85,7 +85,7 @@ components:
     id: dms-b6a8280917
     link: ''
     name: Status Board Update
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-d46cd45930:
     display: false
