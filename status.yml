@@ -391,6 +391,14 @@ components:
     name: Python Application
     status: pending
     type: newrelic
+  nr-16486292:
+    display: true
+    group: null
+    id: nr-16486292
+    link: ''
+    name: nucleus-prod-us-west
+    status: healthy
+    type: newrelic
   synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f:
     display: true
     group: Snippets Service
