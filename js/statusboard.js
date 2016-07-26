@@ -31,27 +31,8 @@ var GlobalStatus = React.createClass({
 
 var Component = React.createClass({
     getBadge: function() {
-        var status = this.props.status;
-        var glyphicon;
-        switch(status) {
-        case 'pending':
-            glyphicon = 'question-sign';
-            break;
-        case 'warning':
-            glyphicon = 'info-sign';
-            break;
-        case 'failed':
-            glyphicon = 'remove-sign';
-            break;
-        default:
-            glyphicon = 'ok-sign';
-        }
-
         return (
-            <span className={"badge mybadge " + this.props.status}>
-              <span className={"glyphicon glyphicon-" + glyphicon} aria-hidden="true">
-              </span>
-            </span>
+            <span className={"status " + this.props.status}>{this.props.status}</span>
         );
     },
     getLink: function() {
@@ -59,10 +40,7 @@ var Component = React.createClass({
             return '';
 
         return (
-            <a href={this.props.link}>
-              <span className="glyphicon glyphicon-link" aria-hidden="true">
-              </span>
-            </a>
+            <a className="status-link" href={this.props.link} title="Learn more">Learn more</a>
         );
     },
     render: function() {
@@ -222,11 +200,11 @@ var StatusBoard = React.createClass({
               <GlobalStatus
                  message={this.state.globalStatusMessage}
                  status={this.state.globalStatus}/>
-              <div id="logo">
+              <h1>
                 <a href="http://status.mozmar.org">
-                  <img src="/img/logo.png" />
+                  <img src="/img/logo.png" alt="Mozilla Engagement Engineering Status Board" />
                 </a>
-              </div>
+              </h1>
               <ComponentList components={this.state.components} />
               <Favicon status={this.state.globalStatus} />
               <LastUpdate lastUpdate={this.state.lastUpdate}/>
