@@ -119,12 +119,22 @@ var ComponentList = React.createClass({
         var groups = this.generateGroups();
         var componentGroups = [];
         for (var property in groups) {
+            if (property === 'default') {
+                continue;
+            }
             if (groups.hasOwnProperty(property)) {
                 componentGroups.push(
                     <ComponentGroup key={property} name={property} components={groups[property]} />
                 );
             }
         }
+
+        // Add the default group last.
+        property = 'default';
+        componentGroups.push(
+                <ComponentGroup key={property} name={property} components={groups[property]} />
+        );
+
         return (
             <div>
               {componentGroups}
