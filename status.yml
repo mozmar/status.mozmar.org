@@ -535,6 +535,14 @@ components:
     name: Website EU-West
     status: healthy
     type: synthetics
+  synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
+    display: true
+    group: null
+    id: synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d
+    link: ''
+    name: Snippets Stats Server
+    status: healthy
+    type: synthetics
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: true
     group: Basket
