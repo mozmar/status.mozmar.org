@@ -479,6 +479,14 @@ components:
     name: Website US-west
     status: healthy
     type: synthetics
+  synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
+    display: true
+    group: null
+    id: synthetics-9340449f-adc3-4e14-bbb4-20c20caff847
+    link: ''
+    name: Nucleus Prod
+    status: failed
+    type: synthetics
   synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d:
     display: true
     group: Infrastructure
@@ -560,5 +568,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
