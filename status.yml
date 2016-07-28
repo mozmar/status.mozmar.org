@@ -21,9 +21,9 @@ components:
     id: dms-16e219cc55
     link: ''
     name: Queue EU-West
+    order: 420
     status: healthy
     type: deadmanssnitch
-    order: 420
   dms-2b20aff8d3:
     display: false
     group: Mozilla Careers
@@ -54,36 +54,36 @@ components:
     id: dms-6eb44fe994
     link: ''
     name: Queue US-West
+    order: 420
     status: healthy
     type: deadmanssnitch
-    order: 420
   dms-7311a3e4db:
     display: false
     group: Basket
     id: dms-7311a3e4db
     link: ''
     name: Basket Stage Queue - EU-West
+    order: 420
     status: healthy
     type: deadmanssnitch
-    order: 420
   dms-8166cac951:
     display: true
     group: Snippets Service
     id: dms-8166cac951
     link: ''
     name: Update Product Details
+    order: 320
     status: healthy
     type: deadmanssnitch
-    order: 320
   dms-943d73ab83:
     display: true
     group: Mozilla Careers
     id: dms-943d73ab83
     link: ''
     name: Jobvite Syncing
+    order: 520
     status: healthy
     type: deadmanssnitch
-    order: 520
   dms-b6a8280917:
     display: true
     group: Infrastructure
@@ -106,18 +106,18 @@ components:
     id: dms-e7b32a3078
     link: ''
     name: Periodic Tasks - EU-West
+    order: 120
     status: healthy
     type: deadmanssnitch
-    order: 120
   dms-ed6363a1ed:
     display: true
     group: mozilla.org
     id: dms-ed6363a1ed
     link: ''
     name: Periodic Tasks - US-West
+    order: 120
     status: healthy
     type: deadmanssnitch
-    order: 120
   nr-13674646:
     display: false
     group: null
@@ -148,9 +148,9 @@ components:
     id: nr-13687580
     link: ''
     name: Application EU-West
+    order: 510
     status: healthy
     type: newrelic
-    order: 510
   nr-13687607:
     display: false
     group: null
@@ -173,45 +173,45 @@ components:
     id: nr-13687653
     link: ''
     name: Application EU-West
+    order: 410
     status: healthy
     type: newrelic
-    order: 410
   nr-13687704:
     display: true
     group: Snippets Service
     id: nr-13687704
     link: ''
     name: Application EU-West
+    order: 310
     status: healthy
     type: newrelic
-    order: 310
   nr-13687785:
     display: true
     group: mozilla.org
     id: nr-13687785
     link: ''
     name: Application EU-West
+    order: 110
     status: healthy
     type: newrelic
-    order: 110
   nr-13687900:
     display: true
     group: Mozilla Careers
     id: nr-13687900
     link: ''
     name: Application US-West
+    order: 510
     status: healthy
     type: newrelic
-    order: 510
   nr-13687919:
     display: true
     group: Master Firefox OS
     id: nr-13687919
     link: ''
     name: Application
+    order: 810
     status: healthy
     type: newrelic
-    order: 810
   nr-13687960:
     display: false
     group: null
@@ -242,18 +242,18 @@ components:
     id: nr-13687987
     link: ''
     name: Application US-West
+    order: 310
     status: healthy
     type: newrelic
-    order: 310
   nr-13688011:
     display: true
     group: Snippets Service
     id: nr-13688011
     link: ''
     name: Admin Application US-West
+    order: 310
     status: healthy
     type: newrelic
-    order: 310
   nr-13688024:
     display: false
     group: null
@@ -268,9 +268,9 @@ components:
     id: nr-13688032
     link: ''
     name: Application US-West
-    status: healthy
-    type: newrelic
     order: 410
+    status: failed
+    type: newrelic
   nr-13688046:
     display: false
     group: null
@@ -285,9 +285,9 @@ components:
     id: nr-13688073
     link: ''
     name: Application US-West
+    order: 110
     status: healthy
     type: newrelic
-    order: 110
   nr-13688101:
     display: false
     group: null
@@ -302,9 +302,9 @@ components:
     id: nr-13688108
     link: ''
     name: Admin Application US-West
+    order: 410
     status: healthy
     type: newrelic
-    order: 410
   nr-13698376:
     display: false
     group: null
@@ -359,45 +359,45 @@ components:
     id: nr-13778280
     link: ''
     name: Application (Heroku)
+    order: 700
     status: healthy
     type: newrelic
-    order: 700
   nr-13782058:
     display: true
     group: Mozilla Developer Network
     id: nr-13782058
     link: ''
     name: Application
+    order: 210
     status: healthy
     type: newrelic
-    order: 210
   nr-13786029:
     display: true
     group: Mozilla Developer Network
     id: nr-13786029
     link: ''
     name: Kumascript Application
+    order: 210
     status: healthy
     type: newrelic
-    order: 210
   nr-13792729:
     display: true
     group: mozilla.org
     id: nr-13792729
     link: ''
     name: Nucleus Application US-West
+    order: 110
     status: healthy
     type: newrelic
-    order: 110
   nr-13801074:
     display: true
     group: Mozilla Support
     id: nr-13801074
     link: ''
     name: Application
+    order: 610
     status: healthy
     type: newrelic
-    order: 610
   nr-13851870:
     display: false
     group: null
@@ -428,18 +428,18 @@ components:
     id: synthetics-1250de8e-25c2-4c85-a359-6b2a73294e1f
     link: ''
     name: Website CDN
+    order: 300
     status: healthy
     type: synthetics
-    order: 300
   synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128:
     display: true
     group: Mozilla Support
     id: synthetics-2d10819d-cbcc-4ec3-b67d-8e71f1406128
     link: ''
     name: Website
+    order: 600
     status: healthy
     type: synthetics
-    order: 600
   synthetics-4860ea0f-a985-425d-bb2b-c75c34c90d54:
     display: false
     group: null
@@ -454,63 +454,63 @@ components:
     id: synthetics-51f2ccb1-ac06-46df-b0ec-c4435c7f6124
     link: https://snippets-stats.us-west.moz.works
     name: Website Snippets Stats US-West
+    order: 305
     status: healthy
     type: synthetics
-    order: 305
   synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce:
     display: true
     group: Mozilla Careers
     id: synthetics-5d0b1ecd-f547-4d43-9fda-92006a63d3ce
     link: ''
     name: Website EU-West
+    order: 501
     status: healthy
     type: synthetics
-    order: 501
   synthetics-615be5db-81f3-462b-903f-a19afdfc19bf:
     display: true
     group: Mozilla Careers
     id: synthetics-615be5db-81f3-462b-903f-a19afdfc19bf
     link: ''
     name: Website US-West
+    order: 500
     status: healthy
     type: synthetics
-    order: 500
   synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1:
     display: true
     group: Mozilla Careers
     id: synthetics-7d70135e-afcd-4c31-bb15-93e3799eeec1
     link: ''
     name: Website
+    order: 500
     status: healthy
     type: synthetics
-    order: 500
   synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679:
     display: true
     group: Snippets Service
     id: synthetics-7e1ae044-0662-4bd4-8ae8-82eb0c09e679
     link: ''
     name: Website EU-West
+    order: 301
     status: healthy
     type: synthetics
-    order: 301
   synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2:
     display: true
     group: mozilla.org
     id: synthetics-81a0480c-5c13-4539-8063-a38472f3d2d2
     link: ''
     name: Website CDN
+    order: 100
     status: healthy
     type: synthetics
-    order: 100
   synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762:
     display: true
     group: mozilla.org
     id: synthetics-8e17eadc-a911-41ed-bd74-54a4c357d762
     link: ''
     name: Website US-west
+    order: 100
     status: healthy
     type: synthetics
-    order: 100
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: true
     group: null
@@ -525,90 +525,90 @@ components:
     id: synthetics-951acc95-95a6-4d27-aabc-2249f1fc286d
     link: ''
     name: MozMar Status Board
+    order: 1500
     status: healthy
     type: synthetics
-    order: 1500
   synthetics-ac74913d-4bb5-4ed5-8585-89065027764f:
     display: true
     group: Snippets Service
     id: synthetics-ac74913d-4bb5-4ed5-8585-89065027764f
     link: ''
     name: Admin Website
+    order: 301
     status: healthy
     type: synthetics
-    order: 301
   synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8:
     display: true
     group: Mozilla Developer Network
     id: synthetics-b0b0f46e-a391-45c9-af80-38704cb883f8
     link: ''
     name: Website
+    order: 200
     status: healthy
     type: synthetics
-    order: 200
   synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3:
     display: true
     group: Snippets Service
     id: synthetics-b51cc5e3-e9fd-4d65-afc1-f8c198e92cc3
     link: ''
     name: Website US-West
+    order: 300
     status: healthy
     type: synthetics
-    order: 300
   synthetics-c88c9131-1412-4687-bd01-05193089dfce:
     display: true
     group: Basket
     id: synthetics-c88c9131-1412-4687-bd01-05193089dfce
     link: ''
     name: Website
+    order: 400
     status: healthy
     type: synthetics
-    order: 400
   synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e:
     display: true
     group: Snippets Service
     id: synthetics-c8c2dd43-5f4f-40da-a012-c450d42fc32e
     link: https://snippets-stats.eu-west.moz.works
     name: Website Snippets Stats EU-West
+    order: 305
     status: healthy
     type: synthetics
-    order: 305
   synthetics-e1226346-99fa-4de3-bafd-9a8700852896:
     display: true
     group: mozilla.org
     id: synthetics-e1226346-99fa-4de3-bafd-9a8700852896
     link: ''
     name: Website EU-West
+    order: 100
     status: healthy
     type: synthetics
-    order: 100
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: true
     group: Snippets Service
     id: synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d
     link: https://snippets-stats.mozilla.org
     name: Website Snippets Stats
+    order: 305
     status: healthy
     type: synthetics
-    order: 305
   synthetics-f339b62e-8e17-4674-8027-0b3019f8a788:
     display: true
     group: Basket
     id: synthetics-f339b62e-8e17-4674-8027-0b3019f8a788
     link: ''
     name: Admin Website US-West
+    order: 400
     status: healthy
     type: synthetics
-    order: 400
   synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80:
     display: true
     group: Master Firefox OS
     id: synthetics-fa7e6830-e431-4b82-8add-dad5731f7b80
     link: ''
     name: Website
+    order: 800
     status: healthy
     type: synthetics
-    order: 800
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
