@@ -349,7 +349,7 @@ components:
     id: nr-13782058
     link: ''
     name: Application
-    status: warning
+    status: failed
     type: newrelic
   nr-13786029:
     display: true
@@ -568,5 +568,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are experiencing issues
-  status: warning
+  message: Some systems are in trouble
+  status: failed
