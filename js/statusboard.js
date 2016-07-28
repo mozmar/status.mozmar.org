@@ -1,3 +1,5 @@
+const DEFAULT_ORDER_VALUE = 10000;
+
 var GlobalStatus = React.createClass({
     statusToColor: function(status) {
         switch(status) {
@@ -67,9 +69,21 @@ var ComponentGroup = React.createClass({
                    key={component.id}
                    status={component.status}
                    link={component.link}
-                   name={component.name} />
+                   name={component.name}
+                   order={component.order}/>
             );
         });
+        components.sort(function(a, b) {
+            // Reverse ordering
+            var a_order = a.props.order !== undefined ? a.props.order : 0;
+            var b_order = b.props.order !== undefined ? b.props.order : 0;
+            if (a_order < b_order)
+                return -1;
+            else if (a_order > b_order)
+                return 1;
+            return 0;
+        });
+
         return components;
     },
     render: function() {
@@ -94,7 +108,11 @@ var ComponentGroup = React.createClass({
 var ComponentList = React.createClass({
     generateGroups: function() {
         var groups = {
-            default: []
+            default: {
+                order: DEFAULT_ORDER_VALUE + 1,
+                components: []
+
+            }
         };
         this.props.components.forEach(function(component) {
             if (!component.display)
@@ -102,38 +120,70 @@ var ComponentList = React.createClass({
 
             if (component.group) {
                 if (Object.keys(groups).indexOf(component.group) >= 0) {
-                    groups[component.group].push(component);
+                    groups[component.group].components.push(component);
                 }
                 else {
-                    groups[component.group] = [component];
+                    groups[component.group] = {
+                        components: [component]
+                    };
                 }
             }
             else {
-                groups.default.push(component);
+                groups.default.components.push(component);
             }
-
         });
+
+        for (var property in groups) {
+            if (groups.hasOwnProperty(property)) {
+                if (property === 'default')
+                    // Default group has already calculated order.
+                    continue;
+                groups[property].order = this.getGroupOrder(groups[property].components);
+            }
+        };
+
         return groups;
+    },
+    /**
+     *  Group order is defined by the component in the group with the minimum
+     *  order value.
+     *
+     * Default is DEFAULT_ORDER_VALUE.
+     */
+    getGroupOrder: function(components) {
+
+        var order = DEFAULT_ORDER_VALUE;
+        components.forEach(function(component) {
+            if (component.order && component.order < order) {
+                order = component.order;
+            }
+        });
+        return order;
     },
     render: function() {
         var groups = this.generateGroups();
         var componentGroups = [];
         for (var property in groups) {
-            if (property === 'default') {
-                continue;
-            }
             if (groups.hasOwnProperty(property)) {
                 componentGroups.push(
-                    <ComponentGroup key={property} name={property} components={groups[property]} />
+                    <ComponentGroup key={property}
+                                    name={property}
+                                    components={groups[property].components}
+                                    order={groups[property].order} />
                 );
             }
         }
 
-        // Add the default group last.
-        property = 'default';
-        componentGroups.push(
-                <ComponentGroup key={property} name={property} components={groups[property]} />
-        );
+        componentGroups.sort(function(a, b) {
+            // Reverse ordering
+            var a_order = a.props.order;
+            var b_order = b.props.order;
+            if (a_order < b_order)
+                return -1;
+            else if (a_order > b_order)
+                return 1;
+            return 0;
+        });
 
         return (
             <div>
