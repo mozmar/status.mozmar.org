@@ -369,7 +369,7 @@ components:
     link: ''
     name: Application
     order: 210
-    status: failed
+    status: warning
     type: newrelic
   nr-13786029:
     display: true
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: Some systems are experiencing issues
+  status: warning
