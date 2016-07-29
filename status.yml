@@ -294,7 +294,7 @@ components:
     id: nr-13688101
     link: ''
     name: bedrock-stage-us-west
-    status: failed
+    status: warning
     type: newrelic
   nr-13688108:
     display: true
