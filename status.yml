@@ -343,7 +343,7 @@ components:
     id: nr-13708738
     link: ''
     name: developer.allizom.org
-    status: healthy
+    status: pending
     type: newrelic
   nr-13710560:
     display: false
@@ -369,7 +369,7 @@ components:
     link: ''
     name: Application
     order: 210
-    status: healthy
+    status: pending
     type: newrelic
   nr-13786029:
     display: true
@@ -396,7 +396,7 @@ components:
     link: ''
     name: Application
     order: 610
-    status: healthy
+    status: pending
     type: newrelic
   nr-13851870:
     display: false
