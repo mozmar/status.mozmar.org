@@ -25,6 +25,10 @@ body {
     background-image: url('/img/icon-info.svg');
 }
 
+.paused {
+    background-image: url('/img/icon-paused.svg');
+}
+
 .warning {
     background-image: url('/img/icon-warning.svg');
 }
