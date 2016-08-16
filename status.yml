@@ -13,7 +13,7 @@ components:
     id: dms-078f7f5a2f
     link: ''
     name: CloudFlare to Datadog Sync
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-16e219cc55:
     display: true
@@ -90,7 +90,7 @@ components:
     id: dms-b6a8280917
     link: ''
     name: Status Board Update
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-d46cd45930:
     display: false
@@ -107,7 +107,7 @@ components:
     link: ''
     name: Periodic Tasks - EU-West
     order: 120
-    status: healthy
+    status: paused
     type: deadmanssnitch
   dms-ed6363a1ed:
     display: true
@@ -116,7 +116,7 @@ components:
     link: ''
     name: Periodic Tasks - US-West
     order: 120
-    status: healthy
+    status: paused
     type: deadmanssnitch
   nr-13674646:
     display: false
@@ -327,7 +327,7 @@ components:
     id: nr-13701320
     link: ''
     name: bedrock-dev-eu-west
-    status: pending
+    status: healthy
     type: newrelic
   nr-13708399:
     display: false
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
