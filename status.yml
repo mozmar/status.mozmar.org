@@ -286,7 +286,7 @@ components:
     link: ''
     name: Application US-West
     order: 110
-    status: healthy
+    status: failed
     type: newrelic
   nr-13688101:
     display: false
@@ -509,7 +509,7 @@ components:
     link: ''
     name: Website US-west
     order: 100
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-9340449f-adc3-4e14-bbb4-20c20caff847:
     display: true
@@ -580,7 +580,7 @@ components:
     link: ''
     name: Website EU-West
     order: 100
-    status: healthy
+    status: failed
     type: synthetics
   synthetics-e6d31da8-fc7d-419b-a7b4-1905e890201d:
     display: true
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
