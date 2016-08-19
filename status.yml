@@ -64,7 +64,7 @@ components:
     link: ''
     name: Basket Stage Queue - EU-West
     order: 420
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-8166cac951:
     display: true
@@ -82,7 +82,7 @@ components:
     link: ''
     name: Greenhouse Syncing
     order: 520
-    status: healthy
+    status: failed
     type: deadmanssnitch
   dms-b6a8280917:
     display: true
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: All systems healthy
-  status: healthy
+  message: Some systems are in trouble
+  status: failed
