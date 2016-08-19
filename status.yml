@@ -82,7 +82,7 @@ components:
     link: ''
     name: Greenhouse Syncing
     order: 520
-    status: failed
+    status: healthy
     type: deadmanssnitch
   dms-b6a8280917:
     display: true
@@ -610,5 +610,5 @@ components:
     status: healthy
     type: synthetics
 globalStatus:
-  message: Some systems are in trouble
-  status: failed
+  message: All systems healthy
+  status: healthy
