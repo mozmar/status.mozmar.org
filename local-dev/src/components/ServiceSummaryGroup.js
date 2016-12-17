@@ -3,6 +3,12 @@ import React, { Component } from 'react';
 import ServiceSummary from './ServiceSummary';
 
 class ServiceSummaryGroup extends Component {
+    static propTypes = {
+        name: React.PropTypes.string.isRequired,
+        order: React.PropTypes.number.isRequired,
+        services: React.PropTypes.array.isRequired
+    }
+
     getServices() {
         var services = [];
 
@@ -16,6 +22,7 @@ class ServiceSummaryGroup extends Component {
                    key={service.id}
                    id={service.id}
                    status={service.status}
+                   hasDetail={service.hasDetail}
                    link={service.link}
                    name={service.name}
                    order={service.order}/>

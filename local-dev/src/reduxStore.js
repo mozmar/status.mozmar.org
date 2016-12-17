@@ -9,19 +9,13 @@ import thunkMiddleware from 'redux-thunk';
 
 import rootReducer from './reducers/index';
 
+import { defaultGlobalData, defaultServiceDetailData } from './helpers';
+
 const loggerMiddleware = createLogger();
 
 const defaultState = {
-    global: {
-        desktopNotify: false,
-        isUpdating: false,
-        lastUpdate: null,
-        message: 'Fetching data...',
-        notifyMessage: false,
-        services: [],
-        status: 'pending'
-    },
-    serviceDetail: {}
+    global: defaultGlobalData,
+    serviceDetail: defaultServiceDetailData
 }
 
 const store = createStore(

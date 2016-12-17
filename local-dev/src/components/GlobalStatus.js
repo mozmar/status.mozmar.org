@@ -5,6 +5,14 @@ import favHealthy from '../img/favicon-healthy.png';
 import favWarning from '../img/favicon-warning.png';
 
 class GlobalStatus extends Component {
+    static propTypes = {
+        clearDesktopNotify: React.PropTypes.func.isRequired,
+        desktopNotify: React.PropTypes.bool.isRequired,
+        message: React.PropTypes.string.isRequired,
+        notifyMessage: React.PropTypes.bool.isRequired,
+        status: React.PropTypes.string.isRequired
+    }
+
     statusToColor(status) {
         var result;
 

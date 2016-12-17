@@ -101,3 +101,59 @@ export function clearDesktopNotify() {
         type: CLEAR_DESKTOP_NOTIFY
     }
 }
+
+export const REQUEST_SERVICE_DETAIL = 'REQUEST_SERVICE_DETAIL';
+// Dispatched from fetchServiceDetail.
+// Nicety to inform app that request to service detail's index.yml is in progress.
+export function requestServiceDetail() {
+    return {
+        type: REQUEST_SERVICE_DETAIL
+    }
+}
+
+export const RECEIVE_SERVICE_DETAIL = 'RECEIVE_SERVICE_DETAIL';
+// Dispatched from async function returned by fetchServiceDetail.
+export function receiveServiceDetail(newServiceDetail) {
+    return {
+        type: RECEIVE_SERVICE_DETAIL,
+        data: newServiceDetail
+    }
+}
+
+// Returns a function that performs async action, then dispatches another
+// action (requires thunk middleware).
+export function fetchServiceDetail(serviceId) {
+    return dispatch => {
+        // Inform app that we are looking for updates to status.yml.
+        dispatch(requestServiceDetail());
+
+        // Make an AJAX request to status.yml.
+        return fetch(process.env.PUBLIC_URL + '/service-detail/' + serviceId + '/index.yml?date=' + Date.now()).then(response => {
+            if (response.ok) {
+                response.text().then(text => {
+                    // Convert YAML formatted text to JS object.
+                    const serviceData = jsyaml.load(text);
+
+                    serviceData.message = 'Service data updated.';
+
+                    // Dispatch receiveGlobalStatus action, passing in new data.
+                    dispatch(receiveServiceDetail(serviceData));
+                });
+            } else {
+                console.error('service detail index.yml response not ok :(');
+            }
+        }).catch(err => {
+            console.error('fetch error!');
+            console.error(err);
+        });
+    }
+}
+
+export const RESET_SERVICE_DETAIL = 'RESET_SERVICE_DETAIL';
+// Dispatched when serviceDetail component unmounts (when user navigates back
+// to the home page).
+export function resetServiceDetail() {
+    return {
+        type: RESET_SERVICE_DETAIL
+    }
+}

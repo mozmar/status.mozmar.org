@@ -1,0 +1,87 @@
+exports[`render ServiceSummaryGroup render basic ServiceSummaryGroup 1`] = `
+<ul
+  className="list-group">
+  <li
+    className="list-group-item list-group-item-info">
+    Test Group
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    test service 1
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      test service 2
+    </a>
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status warning">
+      warning
+    </span>
+    test service 3
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    test service 4
+  </li>
+</ul>
+`;
+
+exports[`render ServiceSummaryGroup render default ServiceSummaryGroup 1`] = `
+<ul
+  className="list-group">
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    test service 1
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    <a
+      onClick={[Function]}
+      style={Object {}}>
+      test service 2
+    </a>
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status warning">
+      warning
+    </span>
+    test service 3
+  </li>
+  <li
+    className="list-group-item">
+    <span
+      className="status healthy">
+      healthy
+    </span>
+    test service 4
+  </li>
+</ul>
+`;

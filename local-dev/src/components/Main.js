@@ -6,6 +6,11 @@ components/App.js.
 import React, { Component } from 'react';
 
 class Main extends Component {
+    static propTypes = {
+        global: React.PropTypes.object.isRequired,
+        serviceDetail: React.PropTypes.object.isRequired
+    }
+
     // Actions that will happen for all child components.
     componentDidMount() {
         // Invoke action to get global status on page load.

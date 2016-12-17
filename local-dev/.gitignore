@@ -1,4 +1,5 @@
 .DS_Store
 alerts/*.yml
 build/
+public/service-detail/*
 node_modules/

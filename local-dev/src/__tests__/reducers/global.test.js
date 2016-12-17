@@ -1,20 +1,13 @@
 import global from '../../reducers/global';
 
+import { defaultGlobalData } from '../../helpers';
+
 import {
     REQUEST_GLOBAL_STATUS,
     RECEIVE_GLOBAL_STATUS,
     RECEIVE_DESKTOP_NOTIFY,
     CLEAR_DESKTOP_NOTIFY } from '../../actions/actionCreators';
 
-const initialStatus = {
-    desktopNotify: false,
-    isUpdating: true,
-    lastUpdate: 'old date',
-    message: '',
-    notifyMessage: false,
-    services: [],
-    status: 'pending'
-};
 
 const existingStatus = {
     desktopNotify: true,
@@ -52,7 +45,7 @@ describe('global reducer', () => {
                 status: 'healthy'
             }
 
-            expect(global(initialStatus, {
+            expect(global(defaultGlobalData, {
                 type: RECEIVE_GLOBAL_STATUS,
                 data: newData
             })).toEqual(newStatus);

@@ -1,0 +1,54 @@
+exports[`test render ServiceDetailAlert 1`] = `
+<div
+  className="service-detail-alert">
+  <h4>
+    <a
+      href="https://frinkiac.com/episode/S07E02/1108189"
+      rel="external">
+      The decline in spirograph and the rise in gang activity
+    </a>
+  </h4>
+  <div
+    className="service-detail-alert-data-wrapper">
+    <dl
+      className="service-detail-alert-data-list">
+      <dt>
+        Resolved
+      </dt>
+      <dd>
+        <span
+          className="label label-danger">
+          no
+        </span>
+      </dd>
+      <dt>
+        Severity
+      </dt>
+      <dd>
+        <span
+          className="label label-warning">
+          high
+        </span>
+      </dd>
+      <dt>
+        Occurred
+      </dt>
+      <dd>
+        Thu Jan 05 2017 11:20:12 GMT-0600 (CST)
+      </dd>
+      <dt>
+        Logged
+      </dt>
+      <dd>
+        Thu Jan 05 2017 11:23:45 GMT-0600 (CST)
+      </dd>
+    </dl>
+    <div
+      className="service-detail-alert-graph-wrapper">
+      <iframe
+        className="service-detail-alert-graph"
+        src="https://frinkiac.com/img/S07E02/1108189.jpg" />
+    </div>
+  </div>
+</div>
+`;

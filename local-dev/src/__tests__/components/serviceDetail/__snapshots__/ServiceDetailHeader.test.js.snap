@@ -1,0 +1,17 @@
+exports[`render ServiceDetailHeader render ServiceDetailHeader with a service object 1`] = `
+<div
+  className="service-detail-header">
+  <h2>
+    test service
+  </h2>
+  <h3>
+    test group
+     | 
+    test type
+     | 
+    test status
+  </h3>
+</div>
+`;
+
+exports[`render ServiceDetailHeader render ServiceDetailHeader with no service object 1`] = `<div />`;

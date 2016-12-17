@@ -6,7 +6,7 @@ import store, { history } from './reduxStore';
 
 import App from './components/App';
 import StatusBoard from './components/StatusBoard';
-import ServiceDetail from './components/ServiceDetail';
+import ServiceDetail from './components/serviceDetail/ServiceDetail';
 import './css/libs/bootstrap.3.3.6.min.css';
 import './css/libs/bootstrap-theme.3.3.6.min.css';
 import './css/style.css'
