@@ -1,0 +1,8 @@
+exports[`test render ServiceDetailGraph 1`] = `
+<div
+  className="service-detail-alert-graph-wrapper">
+  <iframe
+    className="service-detail-alert-graph"
+    src="http://www.mozilla.org/" />
+</div>
+`;

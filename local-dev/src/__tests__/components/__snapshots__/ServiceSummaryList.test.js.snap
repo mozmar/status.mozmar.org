@@ -1,0 +1,58 @@
+exports[`test render ServiceSummaryList 1`] = `
+<div
+  className="service-groups">
+  <ul
+    className="list-group">
+    <li
+      className="list-group-item list-group-item-info">
+      group1
+    </li>
+    <li
+      className="list-group-item">
+      <span
+        className="status healthy">
+        healthy
+      </span>
+      test service 1
+    </li>
+    <li
+      className="list-group-item">
+      <span
+        className="status warning">
+        warning
+      </span>
+      test service 3
+    </li>
+  </ul>
+  <ul
+    className="list-group">
+    <li
+      className="list-group-item list-group-item-info">
+      group2
+    </li>
+    <li
+      className="list-group-item">
+      <span
+        className="status healthy">
+        healthy
+      </span>
+      test service 4
+    </li>
+  </ul>
+  <ul
+    className="list-group">
+    <li
+      className="list-group-item">
+      <span
+        className="status healthy">
+        healthy
+      </span>
+      <a
+        onClick={[Function]}
+        style={Object {}}>
+        test service 2
+      </a>
+    </li>
+  </ul>
+</div>
+`;

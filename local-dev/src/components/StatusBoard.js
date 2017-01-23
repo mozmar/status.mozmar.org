@@ -14,11 +14,11 @@ class StatusBoard extends Component {
         return (
             <div id="status-board">
                 <GlobalStatus
+                    clearDesktopNotify={this.props.clearDesktopNotify}
                     desktopNotify={this.props.global.desktopNotify}
                     message={this.props.global.message}
                     notifyMessage={this.props.global.notifyMessage}
-                    status={this.props.global.status}
-                    clearDesktopNotify={this.props.clearDesktopNotify}/>
+                    status={this.props.global.status} />
                 <Header />
                 <ServiceSummaryList services={this.props.global.services} />
             </div>

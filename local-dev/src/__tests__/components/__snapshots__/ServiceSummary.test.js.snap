@@ -1,4 +1,4 @@
-exports[`test service summary 1`] = `
+exports[`test render ServiceSummary 1`] = `
 <li
   className="list-group-item">
   <span

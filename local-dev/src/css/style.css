@@ -67,3 +67,21 @@ h1 img {
     max-width: 500px;
     width: 100%;
 }
+
+/* Service Detail */
+.service-detail-alert-data-wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+.service-detail-alert-graph {
+    border: 1px solid black;
+}
+
+.service-detail-alert-data-list {
+    flex: 0 0 30%;
+}
+
+.service-detail-alert-graph-wrapper {
+    flex: 0 0 70%;
+}

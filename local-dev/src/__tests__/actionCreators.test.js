@@ -5,6 +5,7 @@ import * as actions from '../actions/actionCreators';
 import jsyaml from 'js-yaml';
 
 import newGlobalStatusData from '../__mocks__/newGlobalStatusData';
+import newServiceDetailData from '../__mocks__/newServiceDetailData';
 
 import { buildNewGlobalStatusObject } from '../helpers';
 
@@ -30,6 +31,25 @@ describe('async actions', () => {
         ];
 
         return store.dispatch(actions.fetchGlobalStatus('current timestamp')).then(() => {
+            expect(store.getActions()).toEqual(expectedActions);
+        });
+    });
+
+    test('fetchServiceDetail should dispatch both requestServiceDetail and receiveStatusDetail actions', () => {
+        // Mock jsYaml.load to just convert string to JSON.
+        // (No YAML has been used in this test.)
+        jsyaml.load = jest.fn(data => JSON.parse(data));
+
+        // A mock store for receiving/holding the dispatched actions.
+        const store = mockStore();
+
+        // These are the actions we expect to be dispatched from fetchGlobalStatus.
+        const expectedActions = [
+            { type: actions.REQUEST_SERVICE_DETAIL },
+            { type: actions.RECEIVE_SERVICE_DETAIL, data: newServiceDetailData }
+        ];
+
+        return store.dispatch(actions.fetchServiceDetail()).then(() => {
             expect(store.getActions()).toEqual(expectedActions);
         });
     });
@@ -157,6 +177,42 @@ describe('actions', () => {
         }
 
         expect(actions.receiveGlobalStatus(newGlobalData)).toEqual(expectedAction);
+    });
+
+    test('requestServiceDetail should create an action with type REQUEST_SERVICE_DETAIL', () => {
+        const expectedAction = {
+            type: actions.REQUEST_SERVICE_DETAIL
+        };
+
+        expect(actions.requestServiceDetail()).toEqual(expectedAction);
+    });
+
+    test('receiveServiceDetail should create an action containing type RECEIVE_STATUS_DETAIL and object of service detail data', () => {
+        const newServiceDetailData = {
+            'date_1': {
+                resolved: true,
+                severity: 'l'
+            },
+            'date_2': {
+                resolved: false,
+                severity: 'h'
+            }
+        };
+
+        const expectedAction = {
+            type: actions.RECEIVE_SERVICE_DETAIL,
+            data: newServiceDetailData
+        }
+
+        expect(actions.receiveServiceDetail(newServiceDetailData)).toEqual(expectedAction);
+    });
+
+    test('resetServiceDetail should create an action with type RESET_SERVICE_DETAIL', () => {
+        const expectedAction = {
+            type: actions.RESET_SERVICE_DETAIL
+        };
+
+        expect(actions.resetServiceDetail()).toEqual(expectedAction);
     });
 
     test('receiveDesktopNotify should create an action containing type RECEIVE_DESKTOP_NOTIFY and boolean user response', () => {

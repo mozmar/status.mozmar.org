@@ -3,13 +3,24 @@ import React, { Component } from 'react';
 import ServiceSummaryGroup from './ServiceSummaryGroup';
 
 
-const DEFAULT_ORDER_VALUE = 10000;
-
 class ServiceSummaryList extends Component {
+    static propTypes = {
+        services: React.PropTypes.array.isRequired
+    }
+
+    DEFAULT_ORDER_VALUE = 10000;
+
+    constructor() {
+        super();
+
+        this.generateGroups = this.generateGroups.bind(this);
+        this.getGroupOrder = this.getGroupOrder.bind(this);
+    }
+
     generateGroups() {
         var groups = {
             default: {
-                order: DEFAULT_ORDER_VALUE + 1,
+                order: this.DEFAULT_ORDER_VALUE + 1,
                 services: []
             }
         };
@@ -53,7 +64,7 @@ class ServiceSummaryList extends Component {
      * Default is DEFAULT_ORDER_VALUE.
      */
     getGroupOrder(services) {
-        var order = DEFAULT_ORDER_VALUE;
+        var order = this.DEFAULT_ORDER_VALUE;
 
         services.forEach(service => {
             if (service.order && service.order < order) {
@@ -95,7 +106,7 @@ class ServiceSummaryList extends Component {
         });
 
         return (
-            <div>
+            <div className="service-groups">
                 {serviceGroups}
             </div>
         );
